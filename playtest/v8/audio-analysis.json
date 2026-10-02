@@ -1,0 +1,11 @@
+{
+  "durationSeconds": 35.94,
+  "sampleRate": 48000,
+  "channels": 2,
+  "peakDbFS": -16.604916009774065,
+  "rmsDbFS": -30.94534686284955,
+  "clippedSamples": 0,
+  "minOneSecondRms": 835.9563429776601,
+  "audioPresent": true,
+  "sourceRecordingId": "921f0ad2-95f6-4724-a5df-c6d2037c5f3d"
+}

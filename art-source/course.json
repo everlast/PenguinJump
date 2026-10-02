@@ -1,0 +1,219 @@
+{
+  "width": 2032,
+  "groundY": 120,
+  "generator": "plugins/penguin-runner/engine/src/states/penguin.c",
+  "obstaclesPerCourse": 10,
+  "bearsPerCourse": 2,
+  "bearPatrolRadius": 16,
+  "bearWidth": 24,
+  "bearCollisionTop": 100,
+  "stompBounceSubpixels": -104,
+  "holesPerCourse": 4,
+  "holeWidths": [
+    32,
+    40,
+    56,
+    64
+  ],
+  "iceHeights": [
+    16,
+    24,
+    48,
+    56
+  ],
+  "largestObstaclesFromCourse": 3,
+  "maxJumps": 2,
+  "fishPerCourse": 60,
+  "minimumObstacleGap": 160,
+  "invincibilityFrames": 480,
+  "invincibilityGaugePixels": 80,
+  "invincibilityProtectsFromHoles": true,
+  "speedSubpixelsPerUpdate": {
+    "initial": 56,
+    "perClear": 1,
+    "maximum": 84,
+    "maximumAfterClears": 28
+  },
+  "jumpPhysicsScaledWithSpeed": true,
+  "floatingBlock": {
+    "width": 16,
+    "top": 80,
+    "bottom": 96,
+    "safeGroundRoute": true
+  },
+  "snowballs": {
+    "fromStage": 5,
+    "windupUpdates": 12,
+    "throwPoseUpdates": 10,
+    "maximumActive": 2,
+    "speedMatchesScroll": true,
+    "centerY": 108,
+    "invincibilityProtects": true
+  },
+  "icicle": {
+    "fromStage": 10,
+    "width": 16,
+    "height": 32,
+    "groundedPhysicsTicks": 48,
+    "shatterPhysicsTicks": 10,
+    "physicsScaledWithSpeed": true,
+    "minimumDistanceToNextObstacle": 160,
+    "invincibilityProtects": true,
+    "perCourseRange": [
+      1,
+      3
+    ],
+    "candidateObstacleIndices": [
+      0,
+      "safe slot 5 or 6",
+      9
+    ],
+    "sampling": "uniform count; shuffle candidates without replacement; visit in course order",
+    "replacesSelectedObstacle": true,
+    "maximumActive": 1,
+    "activationDistance": 112,
+    "silentDelayPhysicsTicks": 24,
+    "warningMarker": false,
+    "warningSound": false,
+    "fishY": 112,
+    "visibleBeforeFalling": false,
+    "collisionBeforeFalling": false
+  },
+  "menuReturn": {
+    "gameOverButton": "B",
+    "preserveSessionBest": true,
+    "resetsMusicTempo": true
+  },
+  "icePerCourseBeforeStage10": 3,
+  "floatingBlocksPerCourseBeforeStage10": 1,
+  "blackBear": {
+    "fromStage": 15,
+    "perCourse": 1,
+    "replacesRandomPolarBear": true,
+    "stationary": true,
+    "stompable": true,
+    "throwsSnowballs": false,
+    "hammersPerCourse": 1,
+    "windupBaseTicks": 16,
+    "windupScaledWithSpeed": true
+  },
+  "hammer": {
+    "width": 16,
+    "height": 16,
+    "frames": 4,
+    "startY": 96,
+    "startOffsetX": -8,
+    "horizontalSubpixelsPerPhysicsTick": -32,
+    "initialVerticalSubpixelsPerPhysicsTick": -160,
+    "gravitySubpixelsPerPhysicsTick": 12,
+    "physicsScaledWithSpeed": true,
+    "despawnY": 128,
+    "normalContactFatal": true,
+    "invincibilityProtects": true
+  },
+  "titleAnimation": {
+    "frames": 8,
+    "frameUpdates": 8,
+    "region": [
+      64,
+      72,
+      32,
+      32
+    ],
+    "version": "V19",
+    "vramBank": 1,
+    "tileStart": 128
+  },
+  "gameModes": {
+    "default": "NORMAL",
+    "selection": "left/right or SELECT",
+    "start": "A or START",
+    "hardInitialEquivalentStage": 20,
+    "hardInitialSpeed": 75,
+    "normalInitialSpeed": 56,
+    "scoreStartsAtZero": true,
+    "sessionBestsSeparate": true,
+    "retryRetainsMode": true,
+    "menuRetainsSelection": true
+  },
+  "fishGauge": {
+    "pixels": 80,
+    "threshold": 100,
+    "fillDirection": "left-to-right",
+    "totalFishShownInResults": true,
+    "sharedWithStarGauge": true
+  },
+  "meteor": {
+    "fromStage": 20,
+    "perCourse": 1,
+    "replacesSafeFirstPairObstacle": true,
+    "candidateObstacleIndices": [
+      1,
+      2
+    ],
+    "startOffsetX": 64,
+    "startY": 16,
+    "horizontalSubpixelsPerPhysicsTick": -64,
+    "verticalSubpixelsPerPhysicsTick": 80,
+    "despawnY": 120,
+    "maximumActive": 1,
+    "normalContactFatal": true,
+    "invincibilityProtects": true,
+    "physicsScaledWithSpeed": true,
+    "flameTrailIsDecorative": true,
+    "activationDistance": 112,
+    "silentDelayPhysicsTicks": 24,
+    "warningMarker": false,
+    "warningSound": false,
+    "fishY": 112
+  },
+  "weatherModes": {
+    "fromStage": 20,
+    "hardStartsEligible": true,
+    "independentPerCourse": true,
+    "probabilityEach": 0.1,
+    "combinationsAllowed": true,
+    "preserveOrdinaryLayout": true,
+    "blizzard": {
+      "whiteHaze": true,
+      "animatedSkySnow": true,
+      "hudUnaffected": true
+    },
+    "icicleStorm": {
+      "multiplier": 3,
+      "perCourseRange": [
+        3,
+        9
+      ],
+      "volleyOffsetX": [
+        -16,
+        0,
+        16
+      ],
+      "delayPhysicsTicks": [
+        24,
+        32,
+        40
+      ]
+    },
+    "meteorStorm": {
+      "multiplier": 3,
+      "perCourse": 3,
+      "volleyOffsetX": [
+        0,
+        16,
+        32
+      ],
+      "delayPhysicsTicks": [
+        24,
+        32,
+        40
+      ]
+    },
+    "hudLegend": {
+      "S": "SNOW",
+      "I": "ICE",
+      "M": "METEOR"
+    }
+  }
+}

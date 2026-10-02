@@ -1,0 +1,115 @@
+{
+  "_resourceType": "sprite",
+  "id": "5165e6b9-e0ef-5ef9-b020-9db660d7956b",
+  "name": "魚",
+  "symbol": "sprite_fish",
+  "states": [
+    {
+      "id": "cb67790f-ddbb-5301-bd2d-01b6a941b1a8",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "150a3192-c9bf-59e2-ad9e-600136e210bb",
+          "frames": [
+            {
+              "id": "d3f41502-22e2-5974-8f65-98df7930bf67",
+              "tiles": [
+                {
+                  "id": "0ec88123-049f-5547-9976-e4468eaeb0a7",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 2,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3ce9ad71-88b5-57c3-b8bc-a152e5f6c689",
+          "frames": [
+            {
+              "id": "058241a5-2add-551f-bf3a-f4392f2913ff",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8af9aafc-f6a2-55cb-9123-e837496d307c",
+          "frames": [
+            {
+              "id": "3fa1f980-3536-5595-9110-40de571ef8ec",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6568442f-7e65-5a4f-905c-6260f98265de",
+          "frames": [
+            {
+              "id": "815e3fe1-3292-5812-a56a-62ca6e4486e1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "625dd8df-b3c0-509a-8cc1-cde038523bb3",
+          "frames": [
+            {
+              "id": "f4f1071b-fc3e-5099-99ee-50b639ba55ae",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f372e67f-bc12-5c17-a67c-40d215dfcac4",
+          "frames": [
+            {
+              "id": "7f7886ec-6dd2-5343-b4ca-98b92db2f09d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3d39dbc6-7015-5d4c-964d-676409ce422c",
+          "frames": [
+            {
+              "id": "2fb9bbcd-1e12-5691-ae93-2456209c4c73",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1ed69550-c4e6-5d52-9d62-048e6120142d",
+          "frames": [
+            {
+              "id": "24bae6f6-578c-59fd-b512-5cb47190b5dc",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 8,
+  "boundsHeight": 8,
+  "animSpeed": 255,
+  "filename": "fish.png",
+  "width": 16,
+  "height": 16
+}

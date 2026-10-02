@@ -1,0 +1,116 @@
+{
+  "_resourceType": "sprite",
+  "id": "9df1d276-0ee7-5f28-adf1-b4e89dba8cd2",
+  "name": "雪玉",
+  "symbol": "sprite_snowball",
+  "filename": "snowball.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "8d8ecdb329e9b6081a81cd00a012416d320416b5",
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 1,
+  "boundsY": -3,
+  "boundsWidth": 6,
+  "boundsHeight": 7,
+  "animSpeed": 255,
+  "states": [
+    {
+      "id": "8d5eeeec-886d-551a-a4ea-350e7e85bf76",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "b0c01a66-6302-5771-9fd0-9ea276fece0a",
+          "frames": [
+            {
+              "id": "734b9399-fe1c-5dc8-84c0-6e891910aaf9",
+              "tiles": [
+                {
+                  "id": "c082c658-09cf-5648-b6bc-ffe11469b356",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 4,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "f4a7a646-69b2-5ff7-9810-1807b33238c4",
+          "frames": [
+            {
+              "id": "5e6a631f-c8cb-51e6-8bf6-8bad012985a5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4cbe2bec-4943-5779-895f-23267e2b3668",
+          "frames": [
+            {
+              "id": "0f857ade-dcf6-5872-a7ce-bad652f56f41",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3fea5182-eadb-578d-88cf-cd9209078d8c",
+          "frames": [
+            {
+              "id": "805dcec7-e234-539f-8696-4196e8285d4c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cb96760a-0035-5c88-9c32-bd6326eeee2d",
+          "frames": [
+            {
+              "id": "4c29a45c-6cb1-5f88-9a6b-8ad19f63bf93",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8f845acb-0a9a-5a1a-9b81-d947503e8743",
+          "frames": [
+            {
+              "id": "5336a404-8063-5372-b478-87cdf349741f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "177c4218-366b-5c88-96e8-680fd0fc9790",
+          "frames": [
+            {
+              "id": "40936398-6c0d-5598-bbf2-e36947f72424",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9cd3c54f-d8e4-5c55-8216-c172841bca0d",
+          "frames": [
+            {
+              "id": "ed8eae97-ce12-5358-9afd-352330530d46",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

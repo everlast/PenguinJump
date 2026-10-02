@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "operationId": "c27a9d8f5402ef33eee5cbb29dccb37caae9af8b5135b3b3bd0e52c1551ff954",
+  "requestId": "penguin-jump-v2-flash-consented-20261001-01",
+  "command": "flash",
+  "state": "succeeded",
+  "cartridgeWrite": "vendor-reported-success",
+  "createdAt": "2026-10-01T01:20:25.736Z",
+  "finishedAt": "2026-10-01T01:21:02.283Z",
+  "rom": {
+    "path": "./build/PenguinJump-v2.gbc",
+    "sizeBytes": 131072,
+    "sha256": "30cc2180bea1422b218d5bf5a3b931fd2e2bab223ea6d935b62cc524ebb4b4af",
+    "title": "PENGUINJUMP",
+    "colorMode": "gbc-only",
+    "colorFlag": 192,
+    "cartridgeType": 30,
+    "cartridgeTypeName": "MBC5+RUMBLE+RAM+BATTERY",
+    "mapper": "MBC5",
+    "romSizeCode": 2,
+    "declaredRomSizeBytes": 131072,
+    "ramSizeCode": 3,
+    "declaredRamSizeBytes": 32768,
+    "nintendoLogoValid": true,
+    "headerChecksum": 30,
+    "computedHeaderChecksum": 30,
+    "headerChecksumValid": true,
+    "valid": true
+  },
+  "selectedDevice": {
+    "gwu2x": {
+      "product": "GWU2X",
+      "product_id": 288,
+      "vendor_id": 13226
+    },
+    "location": {
+      "bus_id": "01",
+      "port_chain": [
+        1
+      ]
+    },
+    "player": 1,
+    "player_function": {
+      "product": "Chromatic - Player 01",
+      "product_id": 257,
+      "vendor_id": 14158
+    }
+  },
+  "vendorResult": {
+    "elapsedMs": 36061,
+    "player": 1,
+    "rom": "PenguinJump-v2.gbc",
+    "romSha256": "30cc2180bea1422b218d5bf5a3b931fd2e2bab223ea6d935b62cc524ebb4b4af"
+  },
+  "processClosure": [
+    {
+      "command": "list-devices",
+      "scope": "vendor",
+      "pid": 39308,
+      "exit": {
+        "code": 0,
+        "signal": null,
+        "at": "2026-10-01T01:20:25.984Z"
+      },
+      "close": {
+        "code": 0,
+        "signal": null,
+        "at": "2026-10-01T01:20:25.989Z"
+      }
+    },
+    {
+      "command": "write-homebrew",
+      "scope": "vendor",
+      "pid": 39310,
+      "exit": {
+        "code": 0,
+        "signal": null,
+        "at": "2026-10-01T01:21:02.275Z"
+      },
+      "close": {
+        "code": 0,
+        "signal": null,
+        "at": "2026-10-01T01:21:02.279Z"
+      }
+    }
+  ],
+  "manualBootAndPlayVerified": false,
+  "authorization": "[redacted]"
+}

@@ -1,0 +1,24 @@
+{
+  "version": "4.3.0-e1",
+  "sceneTypes": [
+    {
+      "key": "PENGUIN",
+      "label": "Penguin Jump ランナー",
+      "files": [
+        "include/states/penguin.h",
+        "src/states/penguin.c",
+        "include/states/penguin_font.h"
+      ],
+      "collisionTiles": [
+        {
+          "key": "ice",
+          "color": "#55DFFFFF",
+          "mask": 15,
+          "flag": 15,
+          "name": "氷の障害物",
+          "icon": "FFFFFFFFFFFFFFFF"
+        }
+      ]
+    }
+  ]
+}

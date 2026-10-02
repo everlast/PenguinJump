@@ -1,0 +1,413 @@
+{
+  "nativeBuild": {
+    "success": true,
+    "builder": "gb-studio-cli",
+    "command": "<home>/.nvm/versions/node/v25.9.0/bin/node",
+    "args": [
+      "<home>/Library/Application Support/modretro-chromatic/toolchain/.local/vendor/gb-studio/out/cli/gb-studio-cli.js",
+      "make:rom",
+      "./project.gbsproj",
+      "./build/PenguinJump-v10.gbc",
+      "--verbose"
+    ],
+    "exitCode": 0,
+    "stdout": "Preparing variables...\nPreparing images...\nPreparing tilesets...\nPreparing ui...\nPreparing sprites...\nPreparing avatars...\nPreparing emotes...\nPreparing music...\nPreparing fonts...\nPreparing scenes...\nPreparation complete\nCompiling Events...\nRemoving folder _gbsbuild\nCopy default engine\nLooking for local engine in assets/engine\nLocal engine not found, using default engine\nLooking for engine plugins in plugins/*/engine\nUsing engine plugin: penguin-runner\nValidating Build Files...\nCompiling: src/core/absolute.c\nCompiling: src/core/actor.c\nCompiling: src/core/bankdata.c\nCompiling: src/core/camera.c\nCompiling: src/core/collision.c\nCompiling: src/core/core.c\nCompiling: src/core/data_manager.c\nCompiling: src/core/events.c\nCompiling: src/core/fade_manager.c\nCompiling: src/core/flasher.c\nCompiling: src/core/game_time.c\nCompiling: src/core/gb/bootstrap.s\nCompiling: src/core/gb/crash_handler.s\nCompiling: src/core/gb/flasher_s.s\nCompiling: src/core/gb/interrupt_sio.s\nCompiling: src/core/gb/interrupt_timer.s\nCompiling: src/core/gb/scroll_a.s\nCompiling: src/core/gb/set_tile_submap.s\nCompiling: src/core/gb/states_caller.s\nCompiling: src/core/gb/ui_a.s\nCompiling: src/core/gb/vm_ui_a.s\nCompiling: src/core/gbprinter.c\nCompiling: src/core/input.c\nCompiling: src/core/interrupts.c\nCompiling: src/core/load_save.c\nCompiling: src/core/math_atan2.c\nCompiling: src/core/math.c\nCompiling: src/core/music_manager.c\nCompiling: src/core/palette.c\nCompiling: src/core/parallax.c\nCompiling: src/core/projectiles.c\nCompiling: src/core/scroll.c\nCompiling: src/core/sfx_player.c\nCompiling: src/core/sgb_border.c\nCompiling: src/core/sio.c\nCompiling: src/core/system.c\nCompiling: src/core/trigger.c\nCompiling: src/core/ui.c\nCompiling: src/core/vm_actor.c\nCompiling: src/core/vm_camera.c\nCompiling: src/core/vm_gameboy.c\nCompiling: src/core/vm_gbprinter.c\nCompiling: src/core/vm_instructions.c\nCompiling: src/core/vm_load_save.c\nCompiling: src/core/vm_math.c\nCompiling: src/core/vm_music.c\nCompiling: src/core/vm_palette.c\nCompiling: src/core/vm_projectiles.c\nCompiling: src/core/vm_rtc.c\nCompiling: src/core/vm_scene.c\nCompiling: src/core/vm_sgb.c\nCompiling: src/core/vm_sio.c\nCompiling: src/core/vm_ui.c\nCompiling: src/core/vm.c\nCompiling: src/data/bg_background_tilemap_attr.c\nCompiling: src/data/bg_background_tilemap.c\nCompiling: src/data/bg_background_tileset.c\nCompiling: src/data/bg_background.c\nCompiling: src/data/bg_penguin_jump_tilemap_attr.c\nCompiling: src/data/bg_penguin_jump_tilemap.c\nCompiling: src/data/bg_penguin_jump_tileset.c\nCompiling: src/data/bg_penguin_jump.c\nCompiling: src/data/cursor_image.c\nCompiling: src/data/font_bench_mono_caps.c\nCompiling: src/data/frame_image.c\nCompiling: src/data/game_signature.c\nCompiling: src/data/music/song_aurora_dash_Data.c\nCompiling: src/data/music/song_snowbound_hop_Data.c\nCompiling: src/data/palette_0.c\nCompiling: src/data/palette_1.c\nCompiling: src/data/palette_2.c\nCompiling: src/data/scene_scene_actors.c\nCompiling: src/data/scene_scene_collisions.c\nCompiling: src/data/scene_scene_init.s\nCompiling: src/data/scene_scene_sprites.c\nCompiling: src/data/scene_scene.c\nCompiling: src/data/scene_start_collisions.c\nCompiling: src/data/scene_start_init.s\nCompiling: src/data/scene_start.c\nCompiling: src/data/script_engine_init.s\nCompiling: src/data/sprite_fish_tileset.c\nCompiling: src/data/sprite_fish.c\nCompiling: src/data/sprite_ice_bank2_tileset.c\nCompiling: src/data/sprite_ice_tileset.c\nCompiling: src/data/sprite_ice.c\nCompiling: src/data/sprite_polar_bear_bank2_tileset.c\nCompiling: src/data/sprite_polar_bear_tileset.c\nCompiling: src/data/sprite_polar_bear.c\nCompiling: src/data/sprite_snowball_tileset.c\nCompiling: src/data/sprite_snowball.c\nCompiling: src/data/sprite_sprite_bank2_tileset.c\nCompiling: src/data/sprite_sprite_tileset.c\nCompiling: src/data/sprite_sprite.c\nCompiling: src/data/spritesheet_none.c\nCompiling: src/data/states_ptrs.s\nCompiling: src/data/tileset_default_frame.c\nCompiling: src/main.c\nCompiling: src/states/logo.c\nCompiling: src/states/penguin.c\nLinking...\n",
+    "stderr": "(node:40666) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n",
+    "warnings": [
+      {
+        "code": "DEP0190",
+        "category": "node-deprecation",
+        "source": "gb-studio-cli-process",
+        "message": "Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated."
+      }
+    ],
+    "diagnostics": [],
+    "diagnosticsTruncated": false,
+    "durationMs": 9140,
+    "outputPath": "./build/PenguinJump-v10.gbc",
+    "rom": {
+      "path": "./build/PenguinJump-v10.gbc",
+      "sizeBytes": 131072,
+      "sha256": "c3a82337d0fb7dfa5873717db1ce404f5bebd9138d70b4d26067a9d7a927844c",
+      "title": "PENGUINJUMP",
+      "colorMode": "gbc-only",
+      "colorFlag": 192,
+      "cartridgeType": 30,
+      "cartridgeTypeName": "MBC5+RUMBLE+RAM+BATTERY",
+      "mapper": "MBC5",
+      "romSizeCode": 2,
+      "declaredRomSizeBytes": 131072,
+      "ramSizeCode": 3,
+      "declaredRamSizeBytes": 32768,
+      "nintendoLogoValid": true,
+      "headerChecksum": 30,
+      "computedHeaderChecksum": 30,
+      "headerChecksumValid": true,
+      "valid": true
+    },
+    "debugArtifacts": {
+      "directory": "./build/PenguinJump-v10.gbc.debug",
+      "noiPath": "./build/PenguinJump-v10.gbc.debug/symbols.noi",
+      "globalsPath": "./build/PenguinJump-v10.gbc.debug/globals.i",
+      "romSha256": "c3a82337d0fb7dfa5873717db1ce404f5bebd9138d70b4d26067a9d7a927844c",
+      "noiSha256": "8584f360b059049de54dd4f53072faa74434f7485e3ce54b83d34f28fe285b2f",
+      "globalsSha256": "9b1a928094e6548cfaf7b5151aeccc846e77e230f823f06ae43583ccd6d0ecf4",
+      "internalRomFilename": "penguin-jump.gbc",
+      "sourceDebugAbi": {
+        "layout": "gbvm-farptr3-uword16-v1",
+        "sha256": "85e65e9be4efe6b794debf0d0a299c88a2f888a48eaf0b35efed6d3c9a2269f0"
+      },
+      "sourceProvenance": {
+        "formatVersion": 1,
+        "projectPath": "./project.gbsproj",
+        "projectRevision": "6bfd6857d0b6fc75d30bd20970b9a11feb313b74502ef319154cb649ef910b52",
+        "revisionAlgorithm": "sha256-merkle-v2",
+        "sourceFingerprint": "d721a7d7399d903d38ebd3023be2e90f860027d23252b86d56068ae796bf04c7",
+        "compilerSha256": "78961636939edb44b0539ae26badfa07055be38124dbf08e3b84ec5608a2e627"
+      }
+    },
+    "sourceDebug": {
+      "available": true,
+      "identity": {
+        "romSha256": "c3a82337d0fb7dfa5873717db1ce404f5bebd9138d70b4d26067a9d7a927844c",
+        "projectRevision": "6bfd6857d0b6fc75d30bd20970b9a11feb313b74502ef319154cb649ef910b52",
+        "sourceFingerprint": "d721a7d7399d903d38ebd3023be2e90f860027d23252b86d56068ae796bf04c7",
+        "compilerSha256": "78961636939edb44b0539ae26badfa07055be38124dbf08e3b84ec5608a2e627",
+        "engineAbiVersion": "gbvm-farptr3-uword16-v1:85e65e9be4efe6b794debf0d0a299c88a2f888a48eaf0b35efed6d3c9a2269f0"
+      }
+    }
+  },
+  "webBuild": {
+    "success": true,
+    "builder": "gb-studio-cli",
+    "command": "<home>/.nvm/versions/node/v25.9.0/bin/node",
+    "args": [
+      "<home>/Library/Application Support/modretro-chromatic/toolchain/.local/vendor/gb-studio/out/cli/gb-studio-cli.js",
+      "make:web",
+      "./project.gbsproj",
+      "./build/web"
+    ],
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": "(node:41555) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n",
+    "durationMs": 9282,
+    "outputPath": "./build/web",
+    "indexPath": "./build/web/index.html",
+    "romPath": "./build/web/rom/penguin-jump.gbc",
+    "cached": false,
+    "sourceRevision": "16fa753f9e4067173d4035a778dabe4693d829ff78a627235dc8de5b151eaf2b",
+    "sourceIdentityScope": "descriptor, project, assets and plugin contents",
+    "execution": {
+      "status": "started",
+      "args": [
+        "<home>/Library/Application Support/modretro-chromatic/toolchain/.local/vendor/gb-studio/out/cli/gb-studio-cli.js",
+        "make:web",
+        "./project.gbsproj",
+        "./build/.web-stage-Edn4JJ"
+      ],
+      "cwd": ".",
+      "child": {
+        "descendants": "unobserved",
+        "startedAt": "2026-10-01T07:32:33.676Z",
+        "pid": 41555,
+        "spawnedAt": "2026-10-01T07:32:33.677Z",
+        "exit": {
+          "at": "2026-10-01T07:32:42.807Z",
+          "code": 0,
+          "signal": null
+        },
+        "close": {
+          "at": "2026-10-01T07:32:42.807Z",
+          "code": 0,
+          "signal": null
+        },
+        "stdoutBytes": 0,
+        "stderrBytes": 264,
+        "outputTruncated": false
+      }
+    },
+    "resources": {
+      "allocations": [
+        {
+          "kind": "staging",
+          "path": "./build/.web-stage-Edn4JJ",
+          "returnedAt": "2026-10-01T07:32:33.676Z"
+        },
+        {
+          "kind": "temporary",
+          "path": "<temporary-path>",
+          "returnedAt": "2026-10-01T07:32:33.676Z"
+        },
+        {
+          "kind": "previous",
+          "path": "./build/.web-previous-kynMrt",
+          "returnedAt": "2026-10-01T07:32:42.821Z"
+        }
+      ],
+      "attestation": {
+        "storage": "trusted-key-reused-or-created",
+        "persistentKeyBytes": 32,
+        "allocationObserved": false
+      },
+      "measurementScope": "bounded post-compiler samples, not peak usage; attestation directory allocation unobserved",
+      "cleanupErrors": [],
+      "staging": {
+        "path": "./build/.web-stage-Edn4JJ",
+        "identity": {
+          "dev": 16777233,
+          "ino": 283059557,
+          "uid": 501,
+          "mode": 16832
+        },
+        "cleanup": "published",
+        "snapshot": {
+          "at": "2026-10-01T07:32:42.820Z",
+          "entries": 14,
+          "logicalBytes": 313603,
+          "allocatedBytes": 335872,
+          "complete": true
+        }
+      },
+      "temporary": {
+        "path": "<temporary-path>",
+        "identity": {
+          "dev": 16777233,
+          "ino": 283059558,
+          "uid": 501,
+          "mode": 16832
+        },
+        "cleanup": "removed",
+        "snapshot": {
+          "at": "2026-10-01T07:32:42.824Z",
+          "entries": 2209,
+          "logicalBytes": 26409768,
+          "allocatedBytes": 30232576,
+          "complete": true
+        }
+      },
+      "previous": {
+        "path": "./build/.web-previous-kynMrt",
+        "identity": {
+          "dev": 16777233,
+          "ino": 283014306,
+          "uid": 501,
+          "mode": 16832
+        },
+        "cleanup": "removed",
+        "snapshot": {
+          "at": "2026-10-01T07:32:42.821Z",
+          "entries": 14,
+          "logicalBytes": 313603,
+          "allocatedBytes": 335872,
+          "complete": true
+        }
+      }
+    },
+    "exportIdentity": {
+      "rom": {
+        "path": "rom/penguin-jump.gbc",
+        "sha256": "15bb5777ee8c739147a5bab673acda89433b44105e42dceacdeb580e3cb566cd",
+        "sizeBytes": 131072
+      },
+      "index": {
+        "path": "index.html",
+        "sha256": "1318aa9f739ab0067047199709e23d9d9384db98943299fb146e384e6e7bc4b1",
+        "sizeBytes": 1167
+      },
+      "inventorySha256": "9528bcf59a6f95c0162dc9c5245ed70575757eb0dd3da2515828a191692490e0",
+      "files": 9,
+      "logicalBytes": 311252
+    },
+    "emulator": "binjgb",
+    "url": "<local-preview-url>",
+    "port": 63787,
+    "reused": true,
+    "preview": {
+      "url": "<local-preview-url>",
+      "port": 63787,
+      "outputRoot": "./build/web",
+      "reused": true,
+      "listenerId": "0bcc4f8010279b23b15b3ec25b57be3c",
+      "startedAt": "2026-10-01T07:27:01.011Z",
+      "kind": "in-process-http",
+      "listening": true,
+      "closureState": "open",
+      "annotations": {
+        "injected": true,
+        "fingerprint": "02ae62490e20e3e23f7cb60733db43dffb2e8544ccb0950a64fc873aac3ce551"
+      }
+    }
+  },
+  "project": {
+    "projectPath": "./project.gbsproj",
+    "projectRoot": ".",
+    "name": "Penguin Jump",
+    "author": "Codex",
+    "format": "distributed",
+    "version": "4.2.0",
+    "revision": "6bfd6857d0b6fc75d30bd20970b9a11feb313b74502ef319154cb649ef910b52",
+    "revisionAlgorithm": "sha256-merkle-v2",
+    "settings": {
+      "colorMode": "color",
+      "startSceneId": "12f07015-0a42-504a-8d39-3f689e13ad3a",
+      "startX": 4,
+      "startY": 14,
+      "defaultSceneTypeId": "PENGUIN",
+      "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
+      "defaultPlayerSprites": {
+        "TOPDOWN": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+        "PLATFORM": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+        "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+        "SHMUP": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+        "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+        "LOGO": "a11ab7d8-2db8-5448-be90-b12afb3f4e3a",
+        "PENGUIN": "a11ab7d8-2db8-5448-be90-b12afb3f4e3a"
+      },
+      "compilerPreset": 3000
+    },
+    "counts": {
+      "scenes": 2,
+      "actors": 14,
+      "triggers": 0,
+      "palettes": 13,
+      "assets": 14,
+      "variables": 0
+    },
+    "health": {
+      "errorCount": 0,
+      "warningCount": 0,
+      "infoCount": 0,
+      "byCode": {}
+    },
+    "diagnostics": [],
+    "diagnosticCount": 0,
+    "diagnosticsTruncated": false
+  },
+  "sourceDebug": {
+    "mode": "source",
+    "identity": {
+      "romSha256": "c3a82337d0fb7dfa5873717db1ce404f5bebd9138d70b4d26067a9d7a927844c",
+      "projectRevision": "6bfd6857d0b6fc75d30bd20970b9a11feb313b74502ef319154cb649ef910b52",
+      "sourceFingerprint": "d721a7d7399d903d38ebd3023be2e90f860027d23252b86d56068ae796bf04c7",
+      "compilerSha256": "78961636939edb44b0539ae26badfa07055be38124dbf08e3b84ec5608a2e627",
+      "engineAbiVersion": "gbvm-farptr3-uword16-v1:85e65e9be4efe6b794debf0d0a299c88a2f888a48eaf0b35efed6d3c9a2269f0"
+    },
+    "frame": 32012,
+    "scene": {
+      "id": "cbb813b0-0b19-5bda-8481-6629aecad1ea",
+      "sceneId": "cbb813b0-0b19-5bda-8481-6629aecad1ea",
+      "name": "エンドレス・アイスラン",
+      "symbol": "scene_scene",
+      "resourcePath": "project/scenes/scene/scene.gbsres",
+      "type": "PENGUIN",
+      "width": 254,
+      "height": 18
+    },
+    "variables": [],
+    "variablesTruncated": false,
+    "unavailableVariables": [],
+    "unavailableVariableCount": 0,
+    "references": [
+      {
+        "owner": {
+          "sceneId": "cbb813b0-0b19-5bda-8481-6629aecad1ea",
+          "resourceType": "scene",
+          "resourceId": "cbb813b0-0b19-5bda-8481-6629aecad1ea",
+          "resourcePath": "project/scenes/scene/scene.gbsres"
+        },
+        "target": {
+          "type": "actor",
+          "id": "05a8ffe4-df2c-5e1e-925c-f6f688055019",
+          "sceneId": "cbb813b0-0b19-5bda-8481-6629aecad1ea",
+          "resourcePath": "project/scenes/scene/actors/8.gbsres"
+        },
+        "relation": "contains-actor",
+        "provenance": "authored",
+        "confidence": "verified"
+      },
+      {
+        "owner": {
+          "sceneId": "cbb813b0-0b19-5bda-8481-6629aecad1ea",
+          "resourceType": "scene",
+          "resourceId": "cbb813b0-0b19-5bda-8481-6629aecad1ea",
+          "resourcePath": "project/scenes/scene/scene.gbsres"
+        },
+        "target": {
+          "type": "actor",
+          "id": "0ab51b84-34e1-5525-813b-896a85807623",
+          "sceneId": "cbb813b0-0b19-5bda-8481-6629aecad1ea",
+          "resourcePath": "project/scenes/scene/actors/5.gbsres"
+        },
+        "relation": "contains-actor",
+        "provenance": "authored",
+        "confidence": "verified"
+      }
+    ],
+    "referencesTruncated": true,
+    "limitations": [
+      "Authored collision grids and event references describe source, not the currently executing VM instruction or dynamically modified collision state."
+    ]
+  },
+  "audioReset": {
+    "music": {
+      "view": "memory",
+      "frame": 32012,
+      "region": "wram",
+      "offset": 2754,
+      "length": 14,
+      "address": "0xdac2",
+      "hex": "0100020000e67f7300020038b500",
+      "bank": 1
+    },
+    "driverMute": {
+      "view": "memory",
+      "frame": 32012,
+      "region": "wram",
+      "offset": 3018,
+      "length": 1,
+      "address": "0xdbca",
+      "hex": "02",
+      "bank": 1
+    }
+  },
+  "recording": {
+    "recordingPath": "./build/playtest-v10",
+    "sessionId": "ac934f9a84f24f37aebb6f6fbd31ff71",
+    "status": "stopped",
+    "branchId": "branch-0003",
+    "frame": 32012,
+    "totalFrames": 32067,
+    "bytesUsed": 37054184,
+    "limits": {
+      "sampleEveryFrames": 60,
+      "recentFrameCount": 64,
+      "maxBytes": 67108864,
+      "maxFrames": 100000,
+      "maxWallTimeMs": 900000
+    },
+    "eventCount": 24726,
+    "eventDigest": "987cc3bdd883b3be9c7ed84ce93a5b70e72813fdecfeeb94c25b07b68c0ddb8e",
+    "branches": [
+      {
+        "branchId": "branch-0001",
+        "frame": 919
+      },
+      {
+        "branchId": "branch-0002",
+        "frame": 5630,
+        "parentBranchId": "branch-0001",
+        "sourceSessionId": "ac934f9a84f24f37aebb6f6fbd31ff71",
+        "checkpointId": "checkpoint-802bbddb74a445fb992c6198dc0488ad"
+      },
+      {
+        "branchId": "branch-0003",
+        "frame": 32012,
+        "parentBranchId": "branch-0002",
+        "sourceSessionId": "ac934f9a84f24f37aebb6f6fbd31ff71",
+        "checkpointId": "checkpoint-dc6e1a502c1141b98642d889a28f9caf"
+      }
+    ],
+    "outcome": "passed",
+    "reason": "30 courses cleared including maximum speed; expected snow/block deaths, immunity, pause and retry verified. Input history and same-ROM branches retained."
+  }
+}

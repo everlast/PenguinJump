@@ -1,0 +1,25 @@
+{
+  "size": [
+    24,
+    32
+  ],
+  "frames": [
+    "right-0",
+    "right-1",
+    "left-0",
+    "left-1",
+    "squash",
+    "windup",
+    "throw"
+  ],
+  "walkFrameUpdates": 8,
+  "squashUpdates": 18,
+  "windupUpdates": 12,
+  "throwUpdates": 10,
+  "sourcePalette": [
+    "#071821",
+    "#86c06c",
+    "#e0f8cf",
+    "#65ff00"
+  ]
+}

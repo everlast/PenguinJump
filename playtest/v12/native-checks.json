@@ -1,0 +1,260 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Completed (name: Penguin Jump)."
+        }
+      ],
+      "structuredContent": {
+        "projectPath": "./project.gbsproj",
+        "projectRoot": ".",
+        "name": "Penguin Jump",
+        "author": "Codex",
+        "format": "distributed",
+        "version": "4.2.0",
+        "revision": "3b22061817671ee6b146af9685a9b2cf13b8e9e03612bfb65d2a39420f0323a3",
+        "revisionAlgorithm": "sha256-merkle-v2",
+        "settings": {
+          "colorMode": "color",
+          "startSceneId": "12f07015-0a42-504a-8d39-3f689e13ad3a",
+          "startX": 4,
+          "startY": 14,
+          "defaultSceneTypeId": "PENGUIN",
+          "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
+          "defaultPlayerSprites": {
+            "TOPDOWN": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+            "PLATFORM": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+            "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+            "SHMUP": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+            "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+            "LOGO": "a11ab7d8-2db8-5448-be90-b12afb3f4e3a",
+            "PENGUIN": "a11ab7d8-2db8-5448-be90-b12afb3f4e3a"
+          },
+          "compilerPreset": 3000
+        },
+        "counts": {
+          "scenes": 2,
+          "actors": 18,
+          "triggers": 0,
+          "palettes": 14,
+          "assets": 18,
+          "variables": 0
+        },
+        "health": {
+          "errorCount": 0,
+          "warningCount": 0,
+          "infoCount": 0,
+          "byCode": {}
+        },
+        "diagnostics": [],
+        "diagnosticCount": 0,
+        "diagnosticsTruncated": false
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Completed."
+        }
+      ],
+      "structuredContent": {
+        "assetPath": "assets/sprites/black_bear.png",
+        "width": 168,
+        "height": 32,
+        "tileWidth": 21,
+        "tileHeight": 4,
+        "totalTiles": 84,
+        "uniqueTiles": 35,
+        "uniqueTilesWithFlips": 23,
+        "paletteFamilies": 1,
+        "colors": [
+          "#071821",
+          "#86c06c",
+          "#e0f8cf"
+        ],
+        "colorCount": 3,
+        "rgb555Colors": [
+          "#081921",
+          "#84bd6b",
+          "#def7ce"
+        ],
+        "rgb555ColorCount": 3,
+        "quantization": [
+          {
+            "sourceColor": "#071821",
+            "quantizedColor": "#081921",
+            "pixelCount": 1072
+          },
+          {
+            "sourceColor": "#86c06c",
+            "quantizedColor": "#84bd6b",
+            "pixelCount": 1288
+          },
+          {
+            "sourceColor": "#e0f8cf",
+            "quantizedColor": "#def7ce",
+            "pixelCount": 111
+          }
+        ],
+        "quantizationCount": 3,
+        "tileBudget": {
+          "limit": 384,
+          "used": 23,
+          "remaining": 361,
+          "mode": "color",
+          "exceeded": false
+        },
+        "viewport": {
+          "width": 160,
+          "height": 144,
+          "tileCount": 80
+        },
+        "violations": [],
+        "violationCount": 0,
+        "violationCounts": {},
+        "truncation": {
+          "colors": false,
+          "rgb555Colors": false,
+          "quantization": false,
+          "violations": false
+        },
+        "sampleLimits": {
+          "colors": 32,
+          "rgb555Colors": 32,
+          "quantization": 24,
+          "violations": 24
+        },
+        "metrics": {
+          "tiles": {
+            "status": "exact",
+            "unique": 35,
+            "uniqueWithFlips": 23,
+            "paletteInvariantPatterns": 35,
+            "encodableTiles": 84,
+            "invalidTiles": 0
+          },
+          "paletteFamilies": {
+            "status": "exact",
+            "count": 1
+          },
+          "tileBudget": {
+            "status": "exact",
+            "used": 23,
+            "remaining": 361,
+            "exceeded": false
+          }
+        },
+        "validationStatus": "valid",
+        "valid": true
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Completed."
+        }
+      ],
+      "structuredContent": {
+        "assetPath": "assets/sprites/hammer.png",
+        "width": 64,
+        "height": 16,
+        "tileWidth": 8,
+        "tileHeight": 2,
+        "totalTiles": 16,
+        "uniqueTiles": 16,
+        "uniqueTilesWithFlips": 8,
+        "paletteFamilies": 1,
+        "colors": [
+          "#071821",
+          "#86c06c",
+          "#e0f8cf"
+        ],
+        "colorCount": 3,
+        "rgb555Colors": [
+          "#081921",
+          "#84bd6b",
+          "#def7ce"
+        ],
+        "rgb555ColorCount": 3,
+        "quantization": [
+          {
+            "sourceColor": "#071821",
+            "quantizedColor": "#081921",
+            "pixelCount": 164
+          },
+          {
+            "sourceColor": "#86c06c",
+            "quantizedColor": "#84bd6b",
+            "pixelCount": 56
+          },
+          {
+            "sourceColor": "#e0f8cf",
+            "quantizedColor": "#def7ce",
+            "pixelCount": 64
+          }
+        ],
+        "quantizationCount": 3,
+        "tileBudget": {
+          "limit": 384,
+          "used": 8,
+          "remaining": 376,
+          "mode": "color",
+          "exceeded": false
+        },
+        "viewport": {
+          "width": 160,
+          "height": 144,
+          "tileCount": 16
+        },
+        "violations": [],
+        "violationCount": 0,
+        "violationCounts": {},
+        "truncation": {
+          "colors": false,
+          "rgb555Colors": false,
+          "quantization": false,
+          "violations": false
+        },
+        "sampleLimits": {
+          "colors": 32,
+          "rgb555Colors": 32,
+          "quantization": 24,
+          "violations": 24
+        },
+        "metrics": {
+          "tiles": {
+            "status": "exact",
+            "unique": 16,
+            "uniqueWithFlips": 8,
+            "paletteInvariantPatterns": 16,
+            "encodableTiles": 16,
+            "invalidTiles": 0
+          },
+          "paletteFamilies": {
+            "status": "exact",
+            "count": 1
+          },
+          "tileBudget": {
+            "status": "exact",
+            "used": 8,
+            "remaining": 376,
+            "exceeded": false
+          }
+        },
+        "validationStatus": "valid",
+        "valid": true
+      }
+    }
+  }
+]

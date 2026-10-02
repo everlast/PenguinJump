@@ -1,0 +1,116 @@
+{
+  "_resourceType": "sprite",
+  "id": "59cea16c-c482-5a5e-8dc0-1f8a4286b22c",
+  "name": "icicle_warning",
+  "symbol": "sprite_icicle_warning",
+  "states": [
+    {
+      "id": "d0ef4485-b1bd-5ca7-a4ae-1bdeaac5a687",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "970f1581-2d7c-5d21-a7b3-475b2bb008a1",
+          "frames": [
+            {
+              "id": "691eb3a3-c70e-5593-a2cb-11bd240f5370",
+              "tiles": [
+                {
+                  "id": "80412ae5-e230-5a81-8ff4-6db0f46cb144",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2093b6f5-a31e-5598-a8a9-ba4c84ee4e77",
+          "frames": [
+            {
+              "id": "ccbf8fe5-f1b5-52d8-b746-019fb5e13d29",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6717405c-8fcf-5b86-97ee-6759dd78f927",
+          "frames": [
+            {
+              "id": "324c22c0-f40d-5a18-9a62-dd1d2be8cb30",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c6e6ad9f-a771-52ea-8bb1-3c964bf91f32",
+          "frames": [
+            {
+              "id": "4ccb0952-f5c8-55a2-b10d-86e6dc3620f8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "de9a51fa-2ec0-542f-9dc5-f8fe16a2d255",
+          "frames": [
+            {
+              "id": "b1f724ff-ac05-583c-95fc-1614a9fc7b06",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "617c40ad-65fd-508b-b1da-4773b4c5009e",
+          "frames": [
+            {
+              "id": "837bf608-2a42-51a0-bc49-a5d44775987c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d553cadb-0aa8-5681-bd11-9998c179c2a9",
+          "frames": [
+            {
+              "id": "c461c538-7947-529e-9494-8c1e42547887",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "715008eb-2484-5945-ba89-dc9d48f0c9c9",
+          "frames": [
+            {
+              "id": "7afbfed1-897e-5e16-a730-faa75bc51e3b",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 3,
+  "boundsY": -6,
+  "boundsWidth": 10,
+  "boundsHeight": 12,
+  "animSpeed": 255,
+  "checksum": "519b998eb09225cf9803f4f195c11cb014f52a3e",
+  "filename": "icicle_warning.png",
+  "width": 16,
+  "height": 16
+}

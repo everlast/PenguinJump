@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "operationId": "2dadc9502998347e90a9eff782f0b1e92bfcbd8f08042d98698d22fe921b46a9",
+  "requestId": "penguin-jump-v7-flash-consented-20261001-01",
+  "command": "flash",
+  "state": "succeeded",
+  "cartridgeWrite": "vendor-reported-success",
+  "createdAt": "2026-10-01T04:02:08.042Z",
+  "finishedAt": "2026-10-01T04:02:46.506Z",
+  "rom": {
+    "path": "./build/PenguinJump-v7.gbc",
+    "sizeBytes": 131072,
+    "sha256": "c124a41c79583cefa04851da4ad325ad583cf67741ccded0952e697edf17c381",
+    "title": "PENGUINJUMP",
+    "colorMode": "gbc-only",
+    "colorFlag": 192,
+    "cartridgeType": 30,
+    "cartridgeTypeName": "MBC5+RUMBLE+RAM+BATTERY",
+    "mapper": "MBC5",
+    "romSizeCode": 2,
+    "declaredRomSizeBytes": 131072,
+    "ramSizeCode": 3,
+    "declaredRamSizeBytes": 32768,
+    "nintendoLogoValid": true,
+    "headerChecksum": 30,
+    "computedHeaderChecksum": 30,
+    "headerChecksumValid": true,
+    "valid": true
+  },
+  "selectedDevice": {
+    "gwu2x": {
+      "product": "GWU2X",
+      "product_id": 288,
+      "vendor_id": 13226
+    },
+    "location": {
+      "bus_id": "01",
+      "port_chain": [
+        1
+      ]
+    },
+    "player": 1,
+    "player_function": {
+      "product": "Chromatic - Player 01",
+      "product_id": 257,
+      "vendor_id": 14158
+    }
+  },
+  "diagnostics": [],
+  "vendorResult": {
+    "elapsedMs": 37934,
+    "player": 1,
+    "rom": "PenguinJump-v7.gbc",
+    "romSha256": "c124a41c79583cefa04851da4ad325ad583cf67741ccded0952e697edf17c381"
+  },
+  "manualBootAndPlayVerified": false,
+  "processClosure": [
+    {
+      "command": "list-devices",
+      "scope": "vendor",
+      "pid": 32876,
+      "exit": {
+        "code": 0,
+        "signal": null,
+        "at": "2026-10-01T04:02:08.321Z"
+      },
+      "close": {
+        "code": 0,
+        "signal": null,
+        "at": "2026-10-01T04:02:08.326Z"
+      }
+    },
+    {
+      "command": "write-homebrew",
+      "scope": "vendor",
+      "pid": 32884,
+      "exit": {
+        "code": 0,
+        "signal": null,
+        "at": "2026-10-01T04:02:46.494Z"
+      },
+      "close": {
+        "code": 0,
+        "signal": null,
+        "at": "2026-10-01T04:02:46.501Z"
+      }
+    }
+  ],
+  "authorization": "[redacted]"
+}

@@ -1,0 +1,116 @@
+{
+  "_resourceType": "sprite",
+  "id": "6d324e09-812e-5b44-a9e4-062b2626e216",
+  "name": "雪玉",
+  "symbol": "sprite_snowball",
+  "states": [
+    {
+      "id": "bf7a4a93-2fab-529c-9950-a538c443ed36",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "5a673593-e279-5907-ba78-92d62867e39e",
+          "frames": [
+            {
+              "id": "8f6b3c7a-fe9c-5242-99fb-ba00864f8616",
+              "tiles": [
+                {
+                  "id": "a54c162e-6cfb-5355-88ab-e077e57c6728",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 4,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "f261fb7a-07cf-5382-9064-d5153c7db01a",
+          "frames": [
+            {
+              "id": "e9af5166-a999-5490-9b6a-5ba720c945f1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "997e6631-b6b4-5cf7-b1c9-bc76ef34635a",
+          "frames": [
+            {
+              "id": "ce3041d0-325c-51d7-ba96-a7470438c28c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c98b2498-0937-5c47-8753-ecc89739008f",
+          "frames": [
+            {
+              "id": "6799b289-b4ce-578f-bb23-f35bed102bfb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2118feb3-9770-571c-85e1-f1f324d41e04",
+          "frames": [
+            {
+              "id": "a9760574-a932-5e85-903f-49c4c06c9666",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c4809ad4-7d95-54f5-bd3e-a49dab6194e0",
+          "frames": [
+            {
+              "id": "640d5497-911b-583b-a5fa-d6affa542f48",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6a1fe2d0-6a04-5e2c-9d38-a1c682ec4e39",
+          "frames": [
+            {
+              "id": "86e32c31-e85d-5917-aad5-5d3240467c8e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "72596b94-1dfb-57a4-b4ec-92de6d86c087",
+          "frames": [
+            {
+              "id": "d6f6627c-d45b-533c-ab6b-15d343c8ba7c",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 1,
+  "boundsY": -3,
+  "boundsWidth": 6,
+  "boundsHeight": 7,
+  "animSpeed": 255,
+  "checksum": "8d8ecdb329e9b6081a81cd00a012416d320416b5",
+  "filename": "snowball.png",
+  "width": 16,
+  "height": 16
+}

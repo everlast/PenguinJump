@@ -1,0 +1,22 @@
+{
+  "preview": {
+    "url": "<local-preview-url>",
+    "port": 62774,
+    "outputRoot": "./build/web",
+    "reused": true,
+    "listenerId": "fc27e35f46fd5d098a12a9e692bd955e",
+    "startedAt": "2026-10-01T02:41:00.915Z",
+    "kind": "in-process-http",
+    "listening": true,
+    "closureState": "open",
+    "annotations": {
+      "injected": true,
+      "fingerprint": "e20cce9f270afb48fadc905024819806cf07e028dcf0f183a031103a770b4893"
+    }
+  },
+  "identity": {
+    "romSha256": "7cdff175e5d97d543219078ed6c2367b2c0f897c5481269181f79f1fbe1daee8",
+    "runtimeSha256": "69aa17be45fec5fde585af4f39ed850b5d64107ec094a6482f316fef2fe7c945",
+    "sourceRevision": "3ab369fc43d3631c9df3ac082b1e4115859f06ea566bbeff5e9d3a2a63adfd59"
+  }
+}

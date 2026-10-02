@@ -1,0 +1,16 @@
+{
+  "seedCount": 65535,
+  "weatherMaskCounts": [
+    47822,
+    5276,
+    5298,
+    586,
+    5275,
+    609,
+    586,
+    83
+  ],
+  "maxSpeedCourseSimulations": 1000,
+  "belowStage20Cases": 950,
+  "scope": "実ソースをホストCで検査。ROMの描画・操作検証とは別。"
+}

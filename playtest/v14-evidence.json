@@ -1,0 +1,1125 @@
+{
+  "build": {
+    "success": true,
+    "builder": "gb-studio-cli",
+    "command": "<home>/.nvm/versions/node/v25.9.0/bin/node",
+    "args": [
+      "<home>/Library/Application Support/modretro-chromatic/toolchain/.local/vendor/gb-studio/out/cli/gb-studio-cli.js",
+      "make:rom",
+      "./project.gbsproj",
+      "./build/PenguinJump-v14.gbc",
+      "--verbose"
+    ],
+    "exitCode": 0,
+    "stdout": "Preparing variables...\nPreparing images...\nPreparing tilesets...\nPreparing ui...\nPreparing sprites...\nPreparing avatars...\nPreparing emotes...\nPreparing music...\nPreparing fonts...\nPreparing scenes...\nPreparation complete\nCompiling Events...\nRemoving folder _gbsbuild\nCopy default engine\nLooking for local engine in assets/engine\nLocal engine not found, using default engine\nLooking for engine plugins in plugins/*/engine\nUsing engine plugin: penguin-runner\nValidating Build Files...\nCompiling: src/core/absolute.c\nCompiling: src/core/actor.c\nCompiling: src/core/bankdata.c\nCompiling: src/core/camera.c\nCompiling: src/core/collision.c\nCompiling: src/core/core.c\nCompiling: src/core/data_manager.c\nCompiling: src/core/events.c\nCompiling: src/core/fade_manager.c\nCompiling: src/core/flasher.c\nCompiling: src/core/game_time.c\nCompiling: src/core/gb/bootstrap.s\nCompiling: src/core/gb/crash_handler.s\nCompiling: src/core/gb/flasher_s.s\nCompiling: src/core/gb/interrupt_sio.s\nCompiling: src/core/gb/interrupt_timer.s\nCompiling: src/core/gb/scroll_a.s\nCompiling: src/core/gb/set_tile_submap.s\nCompiling: src/core/gb/states_caller.s\nCompiling: src/core/gb/ui_a.s\nCompiling: src/core/gb/vm_ui_a.s\nCompiling: src/core/gbprinter.c\nCompiling: src/core/input.c\nCompiling: src/core/interrupts.c\nCompiling: src/core/load_save.c\nCompiling: src/core/math_atan2.c\nCompiling: src/core/math.c\nCompiling: src/core/music_manager.c\nCompiling: src/core/palette.c\nCompiling: src/core/parallax.c\nCompiling: src/core/pj_menu_script.s\nCompiling: src/core/projectiles.c\nCompiling: src/core/scroll.c\nCompiling: src/core/sfx_player.c\nCompiling: src/core/sgb_border.c\nCompiling: src/core/sio.c\nCompiling: src/core/system.c\nCompiling: src/core/trigger.c\nCompiling: src/core/ui.c\nCompiling: src/core/vm_actor.c\nCompiling: src/core/vm_camera.c\nCompiling: src/core/vm_gameboy.c\nCompiling: src/core/vm_gbprinter.c\nCompiling: src/core/vm_instructions.c\nCompiling: src/core/vm_load_save.c\nCompiling: src/core/vm_math.c\nCompiling: src/core/vm_music.c\nCompiling: src/core/vm_palette.c\nCompiling: src/core/vm_projectiles.c\nCompiling: src/core/vm_rtc.c\nCompiling: src/core/vm_scene.c\nCompiling: src/core/vm_sgb.c\nCompiling: src/core/vm_sio.c\nCompiling: src/core/vm_ui.c\nCompiling: src/core/vm.c\nCompiling: src/data/bg_background_tilemap_attr.c\nCompiling: src/data/bg_background_tilemap.c\nCompiling: src/data/bg_background_tileset.c\nCompiling: src/data/bg_background.c\nCompiling: src/data/bg_penguin_jump_tilemap_attr.c\nCompiling: src/data/bg_penguin_jump_tilemap.c\nCompiling: src/data/bg_penguin_jump_tileset.c\nCompiling: src/data/bg_penguin_jump.c\nCompiling: src/data/cursor_image.c\nCompiling: src/data/font_bench_mono_caps.c\nCompiling: src/data/frame_image.c\nCompiling: src/data/game_signature.c\nCompiling: src/data/music/song_aurora_dash_Data.c\nCompiling: src/data/music/song_snowbound_hop_Data.c\nCompiling: src/data/palette_0.c\nCompiling: src/data/palette_1.c\nCompiling: src/data/palette_2.c\nCompiling: src/data/scene_scene_actors.c\nCompiling: src/data/scene_scene_collisions.c\nCompiling: src/data/scene_scene_init.s\nCompiling: src/data/scene_scene_sprites.c\nCompiling: src/data/scene_scene.c\nCompiling: src/data/scene_start_collisions.c\nCompiling: src/data/scene_start_init.s\nCompiling: src/data/scene_start.c\nCompiling: src/data/script_engine_init.s\nCompiling: src/data/sprite_black_bear_bank2_tileset.c\nCompiling: src/data/sprite_black_bear_tileset.c\nCompiling: src/data/sprite_black_bear.c\nCompiling: src/data/sprite_fish_tileset.c\nCompiling: src/data/sprite_fish.c\nCompiling: src/data/sprite_hammer_bank2_tileset.c\nCompiling: src/data/sprite_hammer_tileset.c\nCompiling: src/data/sprite_hammer.c\nCompiling: src/data/sprite_ice_bank2_tileset.c\nCompiling: src/data/sprite_ice_tileset.c\nCompiling: src/data/sprite_ice.c\nCompiling: src/data/sprite_icicle_bank2_tileset.c\nCompiling: src/data/sprite_icicle_tileset.c\nCompiling: src/data/sprite_icicle_warning_tileset.c\nCompiling: src/data/sprite_icicle_warning.c\nCompiling: src/data/sprite_icicle.c\nCompiling: src/data/sprite_polar_bear_bank2_tileset.c\nCompiling: src/data/sprite_polar_bear_tileset.c\nCompiling: src/data/sprite_polar_bear.c\nCompiling: src/data/sprite_snowball_tileset.c\nCompiling: src/data/sprite_snowball.c\nCompiling: src/data/sprite_sprite_bank2_tileset.c\nCompiling: src/data/sprite_sprite_tileset.c\nCompiling: src/data/sprite_sprite.c\nCompiling: src/data/spritesheet_none.c\nCompiling: src/data/states_ptrs.s\nCompiling: src/data/tileset_default_frame.c\nCompiling: src/main.c\nCompiling: src/states/logo.c\nCompiling: src/states/penguin.c\nLinking...\n",
+    "stderr": "(node:2501) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n",
+    "warnings": [
+      {
+        "code": "DEP0190",
+        "category": "node-deprecation",
+        "source": "gb-studio-cli-process",
+        "message": "Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated."
+      }
+    ],
+    "diagnostics": [],
+    "diagnosticsTruncated": false,
+    "durationMs": 11499,
+    "outputPath": "./build/PenguinJump-v14.gbc",
+    "rom": {
+      "path": "./build/PenguinJump-v14.gbc",
+      "sizeBytes": 131072,
+      "sha256": "296bd6a7625eacae5a3250a123177366ba97d047a7e7ae92a374c6fb7d5d8a6c",
+      "title": "PENGUINJUMP",
+      "colorMode": "gbc-only",
+      "colorFlag": 192,
+      "cartridgeType": 30,
+      "cartridgeTypeName": "MBC5+RUMBLE+RAM+BATTERY",
+      "mapper": "MBC5",
+      "romSizeCode": 2,
+      "declaredRomSizeBytes": 131072,
+      "ramSizeCode": 3,
+      "declaredRamSizeBytes": 32768,
+      "nintendoLogoValid": true,
+      "headerChecksum": 30,
+      "computedHeaderChecksum": 30,
+      "headerChecksumValid": true,
+      "valid": true
+    },
+    "debugArtifacts": {
+      "directory": "./build/PenguinJump-v14.gbc.debug",
+      "noiPath": "./build/PenguinJump-v14.gbc.debug/symbols.noi",
+      "globalsPath": "./build/PenguinJump-v14.gbc.debug/globals.i",
+      "romSha256": "296bd6a7625eacae5a3250a123177366ba97d047a7e7ae92a374c6fb7d5d8a6c",
+      "noiSha256": "3228278b729202c4e7fcc07ac5b870a0927364d03448b8c7beee067cf15ba2b9",
+      "globalsSha256": "9b1a928094e6548cfaf7b5151aeccc846e77e230f823f06ae43583ccd6d0ecf4",
+      "internalRomFilename": "penguin-jump.gbc",
+      "sourceDebugAbi": {
+        "layout": "gbvm-farptr3-uword16-v1",
+        "sha256": "85e65e9be4efe6b794debf0d0a299c88a2f888a48eaf0b35efed6d3c9a2269f0"
+      },
+      "sourceProvenance": {
+        "formatVersion": 1,
+        "projectPath": "./project.gbsproj",
+        "projectRevision": "860e2156b44a60392897642b6e77498b8bb72e054f3bf382e70398b18abb2f84",
+        "revisionAlgorithm": "sha256-merkle-v2",
+        "sourceFingerprint": "deb2b9bf077d4dc58190496a1a868e0a9106cc969c1c86d3cca30227371d7340",
+        "compilerSha256": "78961636939edb44b0539ae26badfa07055be38124dbf08e3b84ec5608a2e627"
+      }
+    },
+    "sourceDebug": {
+      "available": true,
+      "identity": {
+        "romSha256": "296bd6a7625eacae5a3250a123177366ba97d047a7e7ae92a374c6fb7d5d8a6c",
+        "projectRevision": "860e2156b44a60392897642b6e77498b8bb72e054f3bf382e70398b18abb2f84",
+        "sourceFingerprint": "deb2b9bf077d4dc58190496a1a868e0a9106cc969c1c86d3cca30227371d7340",
+        "compilerSha256": "78961636939edb44b0539ae26badfa07055be38124dbf08e3b84ec5608a2e627",
+        "engineAbiVersion": "gbvm-farptr3-uword16-v1:85e65e9be4efe6b794debf0d0a299c88a2f888a48eaf0b35efed6d3c9a2269f0"
+      }
+    }
+  },
+  "graphics": {
+    "assetPath": "assets/backgrounds/title.png",
+    "width": 160,
+    "height": 144,
+    "tileWidth": 20,
+    "tileHeight": 18,
+    "totalTiles": 360,
+    "uniqueTiles": 137,
+    "uniqueTilesWithFlips": 126,
+    "paletteFamilies": 1,
+    "colors": [
+      "#071821",
+      "#306850",
+      "#86c06c",
+      "#e0f8cf"
+    ],
+    "colorCount": 4,
+    "rgb555Colors": [
+      "#081921",
+      "#316b52",
+      "#84bd6b",
+      "#def7ce"
+    ],
+    "rgb555ColorCount": 4,
+    "quantization": [
+      {
+        "sourceColor": "#071821",
+        "quantizedColor": "#081921",
+        "pixelCount": 15218
+      },
+      {
+        "sourceColor": "#306850",
+        "quantizedColor": "#316b52",
+        "pixelCount": 4640
+      },
+      {
+        "sourceColor": "#86c06c",
+        "quantizedColor": "#84bd6b",
+        "pixelCount": 1803
+      },
+      {
+        "sourceColor": "#e0f8cf",
+        "quantizedColor": "#def7ce",
+        "pixelCount": 1379
+      }
+    ],
+    "quantizationCount": 4,
+    "tileBudget": {
+      "limit": 384,
+      "used": 126,
+      "remaining": 258,
+      "mode": "color",
+      "exceeded": false
+    },
+    "viewport": {
+      "width": 160,
+      "height": 144,
+      "tileCount": 360
+    },
+    "violations": [],
+    "violationCount": 0,
+    "violationCounts": {},
+    "truncation": {
+      "colors": false,
+      "rgb555Colors": false,
+      "quantization": false,
+      "violations": false
+    },
+    "sampleLimits": {
+      "colors": 32,
+      "rgb555Colors": 32,
+      "quantization": 24,
+      "violations": 24
+    },
+    "metrics": {
+      "tiles": {
+        "status": "exact",
+        "unique": 137,
+        "uniqueWithFlips": 126,
+        "paletteInvariantPatterns": 130,
+        "encodableTiles": 360,
+        "invalidTiles": 0
+      },
+      "paletteFamilies": {
+        "status": "exact",
+        "count": 1
+      },
+      "tileBudget": {
+        "status": "exact",
+        "used": 126,
+        "remaining": 258,
+        "exceeded": false
+      }
+    },
+    "validationStatus": "valid",
+    "valid": true
+  },
+  "run": {
+    "romPath": "./build/PenguinJump-v14.gbc",
+    "frame": 120,
+    "width": 160,
+    "height": 144,
+    "activeButtons": [],
+    "sampledButtons": [],
+    "cgb": true,
+    "romSha256": "296bd6a7625eacae5a3250a123177366ba97d047a7e7ae92a374c6fb7d5d8a6c",
+    "runtime": {
+      "name": "PyBoy",
+      "version": "2.7.0",
+      "protocolVersion": 1,
+      "workerSha256": "6271cbbb9ca76d4d149173f4110705cfa3c567349f0cb7ceb347bf1df7598925"
+    },
+    "paused": true,
+    "clock": {
+      "mode": "paused",
+      "clockHz": 4194304,
+      "dotsPerFrame": 70224,
+      "executionWallTimeMs": 16.149125,
+      "gameTimeMs": 2009.124755859375
+    },
+    "recording": {
+      "recordingPath": "./build/playtest-v14-release",
+      "sessionId": "c693f19f41764db8b5de663d78f4d17a",
+      "status": "recording",
+      "branchId": "branch-0001",
+      "frame": 120,
+      "totalFrames": 120,
+      "bytesUsed": 9539,
+      "limits": {
+        "sampleEveryFrames": 30,
+        "recentFrameCount": 32,
+        "maxBytes": 8388608,
+        "maxFrames": 2000,
+        "maxWallTimeMs": 900000
+      },
+      "eventCount": 7,
+      "eventDigest": "8e594a7e938f80c3b4c6651bac140bc8645bb53b22d262c162f554fe1dfc4fbc",
+      "branches": [
+        {
+          "branchId": "branch-0001",
+          "frame": 120
+        }
+      ]
+    },
+    "debugMode": "source"
+  },
+  "titleFrame": {
+    "frame": 121,
+    "width": 160,
+    "height": 144,
+    "sha256": "8285ac2bd962077a6ca1d402dbca74cb4c8ad6da24aaf5c6f2824c25d6462e12",
+    "rgbaSha256": "8d6c997524f62cb7b6adf37652cd656ccb8e7ac36da21dc330120456983826ff",
+    "sampledButtons": [],
+    "path": "./build/playtest-v14-release/frames/8285ac2bd962077a6ca1d402dbca74cb4c8ad6da24aaf5c6f2824c25d6462e12.png"
+  },
+  "gameplay1": {
+    "romPath": "./build/PenguinJump-v14.gbc",
+    "frame": 233,
+    "width": 160,
+    "height": 144,
+    "activeButtons": [],
+    "sampledButtons": [],
+    "cgb": true,
+    "romSha256": "296bd6a7625eacae5a3250a123177366ba97d047a7e7ae92a374c6fb7d5d8a6c",
+    "runtime": {
+      "name": "PyBoy",
+      "version": "2.7.0",
+      "protocolVersion": 1,
+      "workerSha256": "6271cbbb9ca76d4d149173f4110705cfa3c567349f0cb7ceb347bf1df7598925"
+    },
+    "paused": true,
+    "clock": {
+      "mode": "paused",
+      "clockHz": 4194304,
+      "dotsPerFrame": 70224,
+      "executionWallTimeMs": 44.680668,
+      "gameTimeMs": 3901.050567626953
+    },
+    "recording": {
+      "recordingPath": "./build/playtest-v14-release",
+      "sessionId": "c693f19f41764db8b5de663d78f4d17a",
+      "status": "recording",
+      "branchId": "branch-0001",
+      "frame": 233,
+      "totalFrames": 233,
+      "bytesUsed": 29075,
+      "limits": {
+        "sampleEveryFrames": 30,
+        "recentFrameCount": 32,
+        "maxBytes": 8388608,
+        "maxFrames": 2000,
+        "maxWallTimeMs": 900000
+      },
+      "eventCount": 29,
+      "eventDigest": "c537519a957b8f71730fefb645ca9c5487e8e75b296f2f718f9a40d07a4f4a70",
+      "branches": [
+        {
+          "branchId": "branch-0001",
+          "frame": 233
+        }
+      ]
+    },
+    "startFrame": 123,
+    "advancedFrames": 110,
+    "appliedButtons": [],
+    "samples": [
+      {
+        "frame": 150,
+        "width": 160,
+        "height": 144,
+        "sha256": "02f08ecf6a86e56956bc06cb6a86a563b99d33d066f6410141c0082e292bf304",
+        "rgbaSha256": "bff899319e337b9fb8c1e3efdc66cb16550ba3fb65af667696314d7efae47914",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/02f08ecf6a86e56956bc06cb6a86a563b99d33d066f6410141c0082e292bf304.png"
+      },
+      {
+        "frame": 178,
+        "width": 160,
+        "height": 144,
+        "sha256": "1a10c568984380606235ef63257159c64b1abd0c47e31b88309d8c179f66b006",
+        "rgbaSha256": "e0f5eef2a9b1e249e8e5c8cca8ed2beb076c4aedd85db4f1e0b631adc7184bc4",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/1a10c568984380606235ef63257159c64b1abd0c47e31b88309d8c179f66b006.png"
+      },
+      {
+        "frame": 205,
+        "width": 160,
+        "height": 144,
+        "sha256": "07405e8388c41dc885cbf9dc4df46c14f256ab069bac11cfe0d45c59223e58d3",
+        "rgbaSha256": "37b2afc219cf0de1650a1445b15861052845b4d52f82d3e98b274e1f9acb5ac7",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/07405e8388c41dc885cbf9dc4df46c14f256ab069bac11cfe0d45c59223e58d3.png"
+      },
+      {
+        "frame": 233,
+        "width": 160,
+        "height": 144,
+        "sha256": "f098139e26ba078c943faf3b28e9cfcd5d7905fa914f7b599b8de33788053466",
+        "rgbaSha256": "18fd09098e191a17e5ea89c60efd0420ede67428d2ff1bbd8c6c3e7abdda902b",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/f098139e26ba078c943faf3b28e9cfcd5d7905fa914f7b599b8de33788053466.png"
+      }
+    ],
+    "recordingSpan": {
+      "recordingPath": "./build/playtest-v14-release",
+      "sessionId": "c693f19f41764db8b5de663d78f4d17a",
+      "branchId": "branch-0001",
+      "fromActionIndex": 4,
+      "toActionIndex": 11,
+      "fromFrame": 123,
+      "toFrame": 233,
+      "fromPrefixPin": {
+        "eventCount": 15,
+        "eventDigest": "fe2a4390ba01409982bc87b3ab8fcc3d7095c9eb376f7382999d87985c938b68",
+        "byteLength": 6969,
+        "sha256": "751e9a6ef6a7f2df02bc6033db90564b5f502d36b038a1adff4b723f262f3700"
+      },
+      "prefixPin": {
+        "eventCount": 29,
+        "eventDigest": "c537519a957b8f71730fefb645ca9c5487e8e75b296f2f718f9a40d07a4f4a70",
+        "byteLength": 12668,
+        "sha256": "f6f8b7105f95895f7c3de827c9df37700d2dd10da6062cf97263159451314177"
+      },
+      "emptyInterval": false
+    },
+    "execution": {
+      "status": "completed",
+      "requestedFrames": 110,
+      "startFrame": 123,
+      "frame": 233,
+      "advancedFrames": 110,
+      "appliedButtons": [],
+      "recordingSpan": {
+        "recordingPath": "./build/playtest-v14-release",
+        "sessionId": "c693f19f41764db8b5de663d78f4d17a",
+        "branchId": "branch-0001",
+        "fromActionIndex": 4,
+        "toActionIndex": 11,
+        "fromFrame": 123,
+        "toFrame": 233,
+        "fromPrefixPin": {
+          "eventCount": 15,
+          "eventDigest": "fe2a4390ba01409982bc87b3ab8fcc3d7095c9eb376f7382999d87985c938b68",
+          "byteLength": 6969,
+          "sha256": "751e9a6ef6a7f2df02bc6033db90564b5f502d36b038a1adff4b723f262f3700"
+        },
+        "prefixPin": {
+          "eventCount": 29,
+          "eventDigest": "c537519a957b8f71730fefb645ca9c5487e8e75b296f2f718f9a40d07a4f4a70",
+          "byteLength": 12668,
+          "sha256": "f6f8b7105f95895f7c3de827c9df37700d2dd10da6062cf97263159451314177"
+        },
+        "emptyInterval": false
+      },
+      "sampledButtons": []
+    },
+    "genuineEmulatorFrames": true,
+    "imageDelivery": {
+      "status": "omitted",
+      "sampleCount": 4
+    }
+  },
+  "gameover": {
+    "romPath": "./build/PenguinJump-v14.gbc",
+    "frame": 393,
+    "width": 160,
+    "height": 144,
+    "activeButtons": [],
+    "sampledButtons": [],
+    "cgb": true,
+    "romSha256": "296bd6a7625eacae5a3250a123177366ba97d047a7e7ae92a374c6fb7d5d8a6c",
+    "runtime": {
+      "name": "PyBoy",
+      "version": "2.7.0",
+      "protocolVersion": 1,
+      "workerSha256": "6271cbbb9ca76d4d149173f4110705cfa3c567349f0cb7ceb347bf1df7598925"
+    },
+    "paused": true,
+    "clock": {
+      "mode": "paused",
+      "clockHz": 4194304,
+      "dotsPerFrame": 70224,
+      "executionWallTimeMs": 68.360419,
+      "gameTimeMs": 6579.883575439453
+    },
+    "recording": {
+      "recordingPath": "./build/playtest-v14-release",
+      "sessionId": "c693f19f41764db8b5de663d78f4d17a",
+      "status": "recording",
+      "branchId": "branch-0001",
+      "frame": 393,
+      "totalFrames": 393,
+      "bytesUsed": 40680,
+      "limits": {
+        "sampleEveryFrames": 30,
+        "recentFrameCount": 32,
+        "maxBytes": 8388608,
+        "maxFrames": 2000,
+        "maxWallTimeMs": 900000
+      },
+      "eventCount": 49,
+      "eventDigest": "f37e7896de00196ab6e8709f6ecd216f2953f98a72eb3f85be8ab3b11e80bd35",
+      "branches": [
+        {
+          "branchId": "branch-0001",
+          "frame": 393
+        }
+      ]
+    },
+    "startFrame": 233,
+    "advancedFrames": 160,
+    "appliedButtons": [],
+    "samples": [
+      {
+        "frame": 273,
+        "width": 160,
+        "height": 144,
+        "sha256": "a4c766974c80442a0e4ff22f1338c93a385467a48a86b1f4de95fa0e8112dc20",
+        "rgbaSha256": "33e2a820e72c0f701de1034b83be44006df5f826d74d05fa879556d8054e6694",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/a4c766974c80442a0e4ff22f1338c93a385467a48a86b1f4de95fa0e8112dc20.png"
+      },
+      {
+        "frame": 313,
+        "width": 160,
+        "height": 144,
+        "sha256": "a4c766974c80442a0e4ff22f1338c93a385467a48a86b1f4de95fa0e8112dc20",
+        "rgbaSha256": "33e2a820e72c0f701de1034b83be44006df5f826d74d05fa879556d8054e6694",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/a4c766974c80442a0e4ff22f1338c93a385467a48a86b1f4de95fa0e8112dc20.png"
+      },
+      {
+        "frame": 353,
+        "width": 160,
+        "height": 144,
+        "sha256": "a4c766974c80442a0e4ff22f1338c93a385467a48a86b1f4de95fa0e8112dc20",
+        "rgbaSha256": "33e2a820e72c0f701de1034b83be44006df5f826d74d05fa879556d8054e6694",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/a4c766974c80442a0e4ff22f1338c93a385467a48a86b1f4de95fa0e8112dc20.png"
+      },
+      {
+        "frame": 393,
+        "width": 160,
+        "height": 144,
+        "sha256": "a4c766974c80442a0e4ff22f1338c93a385467a48a86b1f4de95fa0e8112dc20",
+        "rgbaSha256": "33e2a820e72c0f701de1034b83be44006df5f826d74d05fa879556d8054e6694",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/a4c766974c80442a0e4ff22f1338c93a385467a48a86b1f4de95fa0e8112dc20.png"
+      }
+    ],
+    "recordingSpan": {
+      "recordingPath": "./build/playtest-v14-release",
+      "sessionId": "c693f19f41764db8b5de663d78f4d17a",
+      "branchId": "branch-0001",
+      "fromActionIndex": 11,
+      "toActionIndex": 21,
+      "fromFrame": 233,
+      "toFrame": 393,
+      "fromPrefixPin": {
+        "eventCount": 29,
+        "eventDigest": "c537519a957b8f71730fefb645ca9c5487e8e75b296f2f718f9a40d07a4f4a70",
+        "byteLength": 12668,
+        "sha256": "f6f8b7105f95895f7c3de827c9df37700d2dd10da6062cf97263159451314177"
+      },
+      "prefixPin": {
+        "eventCount": 49,
+        "eventDigest": "f37e7896de00196ab6e8709f6ecd216f2953f98a72eb3f85be8ab3b11e80bd35",
+        "byteLength": 21154,
+        "sha256": "c0125160d9e17d6f9707cde20758ac32755d1b80e8640c4754b7ffd7069b7a04"
+      },
+      "emptyInterval": false
+    },
+    "execution": {
+      "status": "completed",
+      "requestedFrames": 160,
+      "startFrame": 233,
+      "frame": 393,
+      "advancedFrames": 160,
+      "appliedButtons": [],
+      "recordingSpan": {
+        "recordingPath": "./build/playtest-v14-release",
+        "sessionId": "c693f19f41764db8b5de663d78f4d17a",
+        "branchId": "branch-0001",
+        "fromActionIndex": 11,
+        "toActionIndex": 21,
+        "fromFrame": 233,
+        "toFrame": 393,
+        "fromPrefixPin": {
+          "eventCount": 29,
+          "eventDigest": "c537519a957b8f71730fefb645ca9c5487e8e75b296f2f718f9a40d07a4f4a70",
+          "byteLength": 12668,
+          "sha256": "f6f8b7105f95895f7c3de827c9df37700d2dd10da6062cf97263159451314177"
+        },
+        "prefixPin": {
+          "eventCount": 49,
+          "eventDigest": "f37e7896de00196ab6e8709f6ecd216f2953f98a72eb3f85be8ab3b11e80bd35",
+          "byteLength": 21154,
+          "sha256": "c0125160d9e17d6f9707cde20758ac32755d1b80e8640c4754b7ffd7069b7a04"
+        },
+        "emptyInterval": false
+      },
+      "sampledButtons": []
+    },
+    "genuineEmulatorFrames": true,
+    "imageDelivery": {
+      "status": "omitted",
+      "sampleCount": 4
+    }
+  },
+  "menu": {
+    "romPath": "./build/PenguinJump-v14.gbc",
+    "frame": 475,
+    "width": 160,
+    "height": 144,
+    "activeButtons": [],
+    "sampledButtons": [],
+    "cgb": true,
+    "romSha256": "296bd6a7625eacae5a3250a123177366ba97d047a7e7ae92a374c6fb7d5d8a6c",
+    "runtime": {
+      "name": "PyBoy",
+      "version": "2.7.0",
+      "protocolVersion": 1,
+      "workerSha256": "6271cbbb9ca76d4d149173f4110705cfa3c567349f0cb7ceb347bf1df7598925"
+    },
+    "paused": true,
+    "clock": {
+      "mode": "paused",
+      "clockHz": 4194304,
+      "dotsPerFrame": 70224,
+      "executionWallTimeMs": 80.929834,
+      "gameTimeMs": 7952.785491943359
+    },
+    "recording": {
+      "recordingPath": "./build/playtest-v14-release",
+      "sessionId": "c693f19f41764db8b5de663d78f4d17a",
+      "status": "recording",
+      "branchId": "branch-0001",
+      "frame": 475,
+      "totalFrames": 475,
+      "bytesUsed": 51733,
+      "limits": {
+        "sampleEveryFrames": 30,
+        "recentFrameCount": 32,
+        "maxBytes": 8388608,
+        "maxFrames": 2000,
+        "maxWallTimeMs": 900000
+      },
+      "eventCount": 69,
+      "eventDigest": "9af21ec94edeb04b968d8c305c467d8f4068bafae8e21e88375e13d7d777e15e",
+      "branches": [
+        {
+          "branchId": "branch-0001",
+          "frame": 475
+        }
+      ]
+    },
+    "startFrame": 395,
+    "advancedFrames": 80,
+    "appliedButtons": [],
+    "samples": [
+      {
+        "frame": 415,
+        "width": 160,
+        "height": 144,
+        "sha256": "b3d6a6e4e0bd5442a9fafde4b3b99b076f7b7e042cb2fc839180f0f41c9b2d97",
+        "rgbaSha256": "7f9b14b0ed4aa2075d9a25b63b6d7a733b7d201f232af1c34c4a8d2eaf0a6098",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/b3d6a6e4e0bd5442a9fafde4b3b99b076f7b7e042cb2fc839180f0f41c9b2d97.png"
+      },
+      {
+        "frame": 435,
+        "width": 160,
+        "height": 144,
+        "sha256": "8285ac2bd962077a6ca1d402dbca74cb4c8ad6da24aaf5c6f2824c25d6462e12",
+        "rgbaSha256": "8d6c997524f62cb7b6adf37652cd656ccb8e7ac36da21dc330120456983826ff",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/8285ac2bd962077a6ca1d402dbca74cb4c8ad6da24aaf5c6f2824c25d6462e12.png"
+      },
+      {
+        "frame": 455,
+        "width": 160,
+        "height": 144,
+        "sha256": "8285ac2bd962077a6ca1d402dbca74cb4c8ad6da24aaf5c6f2824c25d6462e12",
+        "rgbaSha256": "8d6c997524f62cb7b6adf37652cd656ccb8e7ac36da21dc330120456983826ff",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/8285ac2bd962077a6ca1d402dbca74cb4c8ad6da24aaf5c6f2824c25d6462e12.png"
+      },
+      {
+        "frame": 475,
+        "width": 160,
+        "height": 144,
+        "sha256": "8285ac2bd962077a6ca1d402dbca74cb4c8ad6da24aaf5c6f2824c25d6462e12",
+        "rgbaSha256": "8d6c997524f62cb7b6adf37652cd656ccb8e7ac36da21dc330120456983826ff",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/8285ac2bd962077a6ca1d402dbca74cb4c8ad6da24aaf5c6f2824c25d6462e12.png"
+      }
+    ],
+    "recordingSpan": {
+      "recordingPath": "./build/playtest-v14-release",
+      "sessionId": "c693f19f41764db8b5de663d78f4d17a",
+      "branchId": "branch-0001",
+      "fromActionIndex": 24,
+      "toActionIndex": 31,
+      "fromFrame": 395,
+      "toFrame": 475,
+      "fromPrefixPin": {
+        "eventCount": 55,
+        "eventDigest": "927b5009f253aa7188e9348c81267504d6c2266998bc0b43419f64e1cd48d006",
+        "byteLength": 23472,
+        "sha256": "cb837e03c5176befb0c5afdd46c4d36fc4d70ba8498fce3e3cda0aa0a3756981"
+      },
+      "prefixPin": {
+        "eventCount": 69,
+        "eventDigest": "9af21ec94edeb04b968d8c305c467d8f4068bafae8e21e88375e13d7d777e15e",
+        "byteLength": 29180,
+        "sha256": "a08c27a648445353d1c41ee25dce1f1f10a5d91818b12fe8d7d1beaded9d5518"
+      },
+      "emptyInterval": false
+    },
+    "execution": {
+      "status": "completed",
+      "requestedFrames": 80,
+      "startFrame": 395,
+      "frame": 475,
+      "advancedFrames": 80,
+      "appliedButtons": [],
+      "recordingSpan": {
+        "recordingPath": "./build/playtest-v14-release",
+        "sessionId": "c693f19f41764db8b5de663d78f4d17a",
+        "branchId": "branch-0001",
+        "fromActionIndex": 24,
+        "toActionIndex": 31,
+        "fromFrame": 395,
+        "toFrame": 475,
+        "fromPrefixPin": {
+          "eventCount": 55,
+          "eventDigest": "927b5009f253aa7188e9348c81267504d6c2266998bc0b43419f64e1cd48d006",
+          "byteLength": 23472,
+          "sha256": "cb837e03c5176befb0c5afdd46c4d36fc4d70ba8498fce3e3cda0aa0a3756981"
+        },
+        "prefixPin": {
+          "eventCount": 69,
+          "eventDigest": "9af21ec94edeb04b968d8c305c467d8f4068bafae8e21e88375e13d7d777e15e",
+          "byteLength": 29180,
+          "sha256": "a08c27a648445353d1c41ee25dce1f1f10a5d91818b12fe8d7d1beaded9d5518"
+        },
+        "emptyInterval": false
+      },
+      "sampledButtons": []
+    },
+    "genuineEmulatorFrames": true,
+    "imageDelivery": {
+      "status": "omitted",
+      "sampleCount": 4
+    }
+  },
+  "gameplay2": {
+    "romPath": "./build/PenguinJump-v14.gbc",
+    "frame": 577,
+    "width": 160,
+    "height": 144,
+    "activeButtons": [],
+    "sampledButtons": [],
+    "cgb": true,
+    "romSha256": "296bd6a7625eacae5a3250a123177366ba97d047a7e7ae92a374c6fb7d5d8a6c",
+    "runtime": {
+      "name": "PyBoy",
+      "version": "2.7.0",
+      "protocolVersion": 1,
+      "workerSha256": "6271cbbb9ca76d4d149173f4110705cfa3c567349f0cb7ceb347bf1df7598925"
+    },
+    "paused": true,
+    "clock": {
+      "mode": "paused",
+      "clockHz": 4194304,
+      "dotsPerFrame": 70224,
+      "executionWallTimeMs": 103.152001,
+      "gameTimeMs": 9660.541534423828
+    },
+    "recording": {
+      "recordingPath": "./build/playtest-v14-release",
+      "sessionId": "c693f19f41764db8b5de663d78f4d17a",
+      "status": "recording",
+      "branchId": "branch-0001",
+      "frame": 577,
+      "totalFrames": 577,
+      "bytesUsed": 73485,
+      "limits": {
+        "sampleEveryFrames": 30,
+        "recentFrameCount": 32,
+        "maxBytes": 8388608,
+        "maxFrames": 2000,
+        "maxWallTimeMs": 900000
+      },
+      "eventCount": 93,
+      "eventDigest": "8d241a8bef1c7a695ec87a93c6c4758d80c12de3692a03a3d87355ed8cee5323",
+      "branches": [
+        {
+          "branchId": "branch-0001",
+          "frame": 577
+        }
+      ]
+    },
+    "startFrame": 477,
+    "advancedFrames": 100,
+    "appliedButtons": [],
+    "samples": [
+      {
+        "frame": 502,
+        "width": 160,
+        "height": 144,
+        "sha256": "02f08ecf6a86e56956bc06cb6a86a563b99d33d066f6410141c0082e292bf304",
+        "rgbaSha256": "bff899319e337b9fb8c1e3efdc66cb16550ba3fb65af667696314d7efae47914",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/02f08ecf6a86e56956bc06cb6a86a563b99d33d066f6410141c0082e292bf304.png"
+      },
+      {
+        "frame": 527,
+        "width": 160,
+        "height": 144,
+        "sha256": "5b5912e6c8f399959a77636ea51e66d04ee54d9230f3c293b26f757e171fbdd8",
+        "rgbaSha256": "3a88e4c374c939eeb526285adf6eb9184826ce2cea5c032022542d99ff437444",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/5b5912e6c8f399959a77636ea51e66d04ee54d9230f3c293b26f757e171fbdd8.png"
+      },
+      {
+        "frame": 552,
+        "width": 160,
+        "height": 144,
+        "sha256": "7c955f2d9a9a4d99b820f8946175df061709208732f03bcc5dbc2b012a5f2c2e",
+        "rgbaSha256": "92cb68e86f670bf8fa5343c833ece2eba476185d413a1b5b337f68d3898bbb4a",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/7c955f2d9a9a4d99b820f8946175df061709208732f03bcc5dbc2b012a5f2c2e.png"
+      },
+      {
+        "frame": 577,
+        "width": 160,
+        "height": 144,
+        "sha256": "4c1bb0a3932830795dc7660e1f73c7bfed4ad32d3f91dc0da5d7874d4b7f2903",
+        "rgbaSha256": "f05cb46d1501184b54300715dfb763e6db7a7e960ec1ca847cfde550d5a7e4db",
+        "sampledButtons": [],
+        "path": "./build/playtest-v14-release/frames/4c1bb0a3932830795dc7660e1f73c7bfed4ad32d3f91dc0da5d7874d4b7f2903.png"
+      }
+    ],
+    "recordingSpan": {
+      "recordingPath": "./build/playtest-v14-release",
+      "sessionId": "c693f19f41764db8b5de663d78f4d17a",
+      "branchId": "branch-0001",
+      "fromActionIndex": 34,
+      "toActionIndex": 43,
+      "fromFrame": 477,
+      "toFrame": 577,
+      "fromPrefixPin": {
+        "eventCount": 75,
+        "eventDigest": "ca6f18b6d3e78a8df68b16f81a28a432971970e601aa08ccdcc5bb0c3b9caafc",
+        "byteLength": 31510,
+        "sha256": "2a96ecfa0bee8c2be336a9d2596d9a40cf6e7ecc6798252203ef432e57d4a8e0"
+      },
+      "prefixPin": {
+        "eventCount": 93,
+        "eventDigest": "8d241a8bef1c7a695ec87a93c6c4758d80c12de3692a03a3d87355ed8cee5323",
+        "byteLength": 38919,
+        "sha256": "4f6ab8c3416a46076488a96a342a595333e2fbc910c21b9888662ee9f38bfbae"
+      },
+      "emptyInterval": false
+    },
+    "execution": {
+      "status": "completed",
+      "requestedFrames": 100,
+      "startFrame": 477,
+      "frame": 577,
+      "advancedFrames": 100,
+      "appliedButtons": [],
+      "recordingSpan": {
+        "recordingPath": "./build/playtest-v14-release",
+        "sessionId": "c693f19f41764db8b5de663d78f4d17a",
+        "branchId": "branch-0001",
+        "fromActionIndex": 34,
+        "toActionIndex": 43,
+        "fromFrame": 477,
+        "toFrame": 577,
+        "fromPrefixPin": {
+          "eventCount": 75,
+          "eventDigest": "ca6f18b6d3e78a8df68b16f81a28a432971970e601aa08ccdcc5bb0c3b9caafc",
+          "byteLength": 31510,
+          "sha256": "2a96ecfa0bee8c2be336a9d2596d9a40cf6e7ecc6798252203ef432e57d4a8e0"
+        },
+        "prefixPin": {
+          "eventCount": 93,
+          "eventDigest": "8d241a8bef1c7a695ec87a93c6c4758d80c12de3692a03a3d87355ed8cee5323",
+          "byteLength": 38919,
+          "sha256": "4f6ab8c3416a46076488a96a342a595333e2fbc910c21b9888662ee9f38bfbae"
+        },
+        "emptyInterval": false
+      },
+      "sampledButtons": []
+    },
+    "genuineEmulatorFrames": true,
+    "imageDelivery": {
+      "status": "omitted",
+      "sampleCount": 4
+    }
+  },
+  "oam": {
+    "view": "oam",
+    "frame": 577,
+    "totalObjects": 40,
+    "visibleObjects": 8,
+    "matchedObjects": 8,
+    "returnedObjects": 8,
+    "truncated": false,
+    "objects": [
+      {
+        "index": 0,
+        "x": 48,
+        "y": 104,
+        "tile": 0,
+        "attributes": 0,
+        "width": 8,
+        "height": 16,
+        "visible": true
+      },
+      {
+        "index": 1,
+        "x": 40,
+        "y": 104,
+        "tile": 2,
+        "attributes": 0,
+        "width": 8,
+        "height": 16,
+        "visible": true
+      },
+      {
+        "index": 2,
+        "x": 121,
+        "y": 104,
+        "tile": 4,
+        "attributes": 1,
+        "width": 8,
+        "height": 16,
+        "visible": true
+      },
+      {
+        "index": 3,
+        "x": 113,
+        "y": 104,
+        "tile": 6,
+        "attributes": 1,
+        "width": 8,
+        "height": 16,
+        "visible": true
+      },
+      {
+        "index": 4,
+        "x": 65,
+        "y": 104,
+        "tile": 28,
+        "attributes": 2,
+        "width": 8,
+        "height": 16,
+        "visible": true
+      },
+      {
+        "index": 5,
+        "x": 97,
+        "y": 88,
+        "tile": 28,
+        "attributes": 2,
+        "width": 8,
+        "height": 16,
+        "visible": true
+      },
+      {
+        "index": 6,
+        "x": 121,
+        "y": 76,
+        "tile": 28,
+        "attributes": 2,
+        "width": 8,
+        "height": 16,
+        "visible": true
+      },
+      {
+        "index": 7,
+        "x": 145,
+        "y": 88,
+        "tile": 28,
+        "attributes": 2,
+        "width": 8,
+        "height": 16,
+        "visible": true
+      }
+    ],
+    "scanlineSummary": {
+      "peakObjects": 5,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    }
+  },
+  "recording": {
+    "recordingPath": "./build/playtest-v14-release",
+    "sessionId": "c693f19f41764db8b5de663d78f4d17a",
+    "status": "stopped",
+    "branchId": "branch-0001",
+    "frame": 577,
+    "totalFrames": 577,
+    "bytesUsed": 74492,
+    "limits": {
+      "sampleEveryFrames": 30,
+      "recentFrameCount": 32,
+      "maxBytes": 8388608,
+      "maxFrames": 2000,
+      "maxWallTimeMs": 900000
+    },
+    "eventCount": 95,
+    "eventDigest": "9c6e68153fc2fea2cd4a0b486ad4e6fde529b0934997a41c5fd251f01c78a84e",
+    "branches": [
+      {
+        "branchId": "branch-0001",
+        "frame": 577
+      }
+    ],
+    "outcome": "passed",
+    "reason": "V14 visible on cold title and B-menu return; A/START launch normally and fish/ice render after restart. Source pixels change only in right-top version region."
+  },
+  "web": {
+    "success": true,
+    "builder": "gb-studio-cli",
+    "command": "<home>/.nvm/versions/node/v25.9.0/bin/node",
+    "args": [
+      "<home>/Library/Application Support/modretro-chromatic/toolchain/.local/vendor/gb-studio/out/cli/gb-studio-cli.js",
+      "make:web",
+      "./project.gbsproj",
+      "./build/web"
+    ],
+    "exitCode": 0,
+    "stdout": "",
+    "stderr": "(node:3255) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n",
+    "durationMs": 10221,
+    "outputPath": "./build/web",
+    "indexPath": "./build/web/index.html",
+    "romPath": "./build/web/rom/penguin-jump.gbc",
+    "cached": false,
+    "sourceRevision": "9944186c65296ed3ecc329a4b40813fb2fe53875403f057f18df00ce5e51fad1",
+    "sourceIdentityScope": "descriptor, project, assets and plugin contents",
+    "execution": {
+      "status": "started",
+      "args": [
+        "<home>/Library/Application Support/modretro-chromatic/toolchain/.local/vendor/gb-studio/out/cli/gb-studio-cli.js",
+        "make:web",
+        "./project.gbsproj",
+        "./build/.web-stage-5P6DLX"
+      ],
+      "cwd": ".",
+      "child": {
+        "descendants": "unobserved",
+        "startedAt": "2026-10-02T11:37:19.225Z",
+        "pid": 3255,
+        "spawnedAt": "2026-10-02T11:37:19.225Z",
+        "exit": {
+          "at": "2026-10-02T11:37:29.288Z",
+          "code": 0,
+          "signal": null
+        },
+        "close": {
+          "at": "2026-10-02T11:37:29.288Z",
+          "code": 0,
+          "signal": null
+        },
+        "stdoutBytes": 0,
+        "stderrBytes": 263,
+        "outputTruncated": false
+      }
+    },
+    "resources": {
+      "allocations": [
+        {
+          "kind": "staging",
+          "path": "./build/.web-stage-5P6DLX",
+          "returnedAt": "2026-10-02T11:37:19.224Z"
+        },
+        {
+          "kind": "temporary",
+          "path": "<temporary-path>",
+          "returnedAt": "2026-10-02T11:37:19.224Z"
+        },
+        {
+          "kind": "previous",
+          "path": "./build/.web-previous-E0XDaW",
+          "returnedAt": "2026-10-02T11:37:29.305Z"
+        }
+      ],
+      "attestation": {
+        "storage": "trusted-key-reused-or-created",
+        "persistentKeyBytes": 32,
+        "allocationObserved": false
+      },
+      "measurementScope": "bounded post-compiler samples, not peak usage; attestation directory allocation unobserved",
+      "cleanupErrors": [],
+      "staging": {
+        "path": "./build/.web-stage-5P6DLX",
+        "identity": {
+          "dev": 16777233,
+          "ino": 284404915,
+          "uid": 501,
+          "mode": 16832
+        },
+        "cleanup": "published",
+        "snapshot": {
+          "at": "2026-10-02T11:37:29.304Z",
+          "entries": 14,
+          "logicalBytes": 313603,
+          "allocatedBytes": 335872,
+          "complete": true
+        }
+      },
+      "temporary": {
+        "path": "<temporary-path>",
+        "identity": {
+          "dev": 16777233,
+          "ino": 284404916,
+          "uid": 501,
+          "mode": 16832
+        },
+        "cleanup": "removed",
+        "snapshot": {
+          "at": "2026-10-02T11:37:29.307Z",
+          "entries": 2312,
+          "logicalBytes": 26938567,
+          "allocatedBytes": 30994432,
+          "complete": true
+        }
+      },
+      "previous": {
+        "path": "./build/.web-previous-E0XDaW",
+        "identity": {
+          "dev": 16777233,
+          "ino": 284091633,
+          "uid": 501,
+          "mode": 16832
+        },
+        "cleanup": "removed",
+        "snapshot": {
+          "at": "2026-10-02T11:37:29.305Z",
+          "entries": 14,
+          "logicalBytes": 313603,
+          "allocatedBytes": 335872,
+          "complete": true
+        }
+      }
+    },
+    "exportIdentity": {
+      "rom": {
+        "path": "rom/penguin-jump.gbc",
+        "sha256": "6cc32b8c6a2f2194f6bbe7322fc741a54a8c7b9ea087a6e8951cb4ca9f40ddb5",
+        "sizeBytes": 131072
+      },
+      "index": {
+        "path": "index.html",
+        "sha256": "1318aa9f739ab0067047199709e23d9d9384db98943299fb146e384e6e7bc4b1",
+        "sizeBytes": 1167
+      },
+      "inventorySha256": "f90c9f05998c945f716478d64bb7e6fe76aeaf518c6e0cf1e018b60cd0dfd248",
+      "files": 9,
+      "logicalBytes": 311252
+    },
+    "emulator": "binjgb",
+    "url": "<local-preview-url>",
+    "port": 60948,
+    "reused": false,
+    "preview": {
+      "url": "<local-preview-url>",
+      "port": 60948,
+      "outputRoot": "./build/web",
+      "reused": false,
+      "listenerId": "0050ad76509dca00266696d1173b0651",
+      "startedAt": "2026-10-02T11:37:29.467Z",
+      "kind": "in-process-http",
+      "listening": true,
+      "closureState": "open",
+      "annotations": {
+        "injected": true,
+        "fingerprint": "9e1b79922d6b194584342b023696189d1f45beaa38702ad66e7948d80e30a629"
+      }
+    }
+  },
+  "browserTitleObserved": true
+}

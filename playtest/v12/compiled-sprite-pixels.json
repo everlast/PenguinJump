@@ -1,0 +1,115 @@
+[
+  {
+    "rom": "./build/PenguinJump-v12.gbc",
+    "sha256": "20fb2a5755bf9728f23ff5caf362e45ef9dc7ea9e103893e83fe4ac7b8d1d628",
+    "frames": [
+      {
+        "frame": 0,
+        "name": "right-0",
+        "mismatchedPixels": 0
+      },
+      {
+        "frame": 1,
+        "name": "right-1",
+        "mismatchedPixels": 0
+      },
+      {
+        "frame": 2,
+        "name": "left-0",
+        "mismatchedPixels": 0
+      },
+      {
+        "frame": 3,
+        "name": "left-1",
+        "mismatchedPixels": 0
+      },
+      {
+        "frame": 4,
+        "name": "squash",
+        "mismatchedPixels": 0
+      },
+      {
+        "frame": 5,
+        "name": "windup",
+        "mismatchedPixels": 0
+      },
+      {
+        "frame": 6,
+        "name": "throw",
+        "mismatchedPixels": 0
+      }
+    ],
+    "passed": true
+  },
+  {
+    "rom": "./build/PenguinJump-v12.gbc",
+    "sha256": "20fb2a5755bf9728f23ff5caf362e45ef9dc7ea9e103893e83fe4ac7b8d1d628",
+    "sprite": "black_bear",
+    "frames": [
+      {
+        "frame": 0,
+        "name": "right-0",
+        "mismatchedPixels": 0
+      },
+      {
+        "frame": 1,
+        "name": "right-1",
+        "mismatchedPixels": 0
+      },
+      {
+        "frame": 2,
+        "name": "left-0",
+        "mismatchedPixels": 0
+      },
+      {
+        "frame": 3,
+        "name": "left-1",
+        "mismatchedPixels": 0
+      },
+      {
+        "frame": 4,
+        "name": "squash",
+        "mismatchedPixels": 0
+      },
+      {
+        "frame": 5,
+        "name": "windup",
+        "mismatchedPixels": 0
+      },
+      {
+        "frame": 6,
+        "name": "throw",
+        "mismatchedPixels": 0
+      }
+    ],
+    "passed": true
+  },
+  {
+    "rom": "./build/PenguinJump-v12.gbc",
+    "sha256": "20fb2a5755bf9728f23ff5caf362e45ef9dc7ea9e103893e83fe4ac7b8d1d628",
+    "sprite": "hammer",
+    "frames": [
+      {
+        "frame": 0,
+        "name": "0",
+        "mismatchedPixels": 0
+      },
+      {
+        "frame": 1,
+        "name": "90",
+        "mismatchedPixels": 0
+      },
+      {
+        "frame": 2,
+        "name": "180",
+        "mismatchedPixels": 0
+      },
+      {
+        "frame": 3,
+        "name": "270",
+        "mismatchedPixels": 0
+      }
+    ],
+    "passed": true
+  }
+]

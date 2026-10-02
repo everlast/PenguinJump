@@ -1,0 +1,3262 @@
+{
+  "rom": {
+    "path": "./build/PenguinJump-v2.gbc",
+    "sizeBytes": 131072,
+    "sha256": "30cc2180bea1422b218d5bf5a3b931fd2e2bab223ea6d935b62cc524ebb4b4af",
+    "title": "PENGUINJUMP",
+    "colorMode": "gbc-only",
+    "colorFlag": 192,
+    "cartridgeType": 30,
+    "cartridgeTypeName": "MBC5+RUMBLE+RAM+BATTERY",
+    "mapper": "MBC5",
+    "romSizeCode": 2,
+    "declaredRomSizeBytes": 131072,
+    "ramSizeCode": 3,
+    "declaredRamSizeBytes": 32768,
+    "nintendoLogoValid": true,
+    "headerChecksum": 30,
+    "computedHeaderChecksum": 30,
+    "headerChecksumValid": true,
+    "valid": true
+  },
+  "method": "Public emulator input and read-only WRAM/OAM inspection. No memory writes or cheats.",
+  "evidence": [
+    {
+      "test": "two heights and fish",
+      "state": {
+        "frame": 375,
+        "rng": 54566,
+        "courses": 0,
+        "fish": 13,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 207,
+        "ice": [
+          {
+            "x": 216,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 24
+          },
+          {
+            "x": 792,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1088,
+            "h": 16
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1376,
+            "h": 16
+          },
+          {
+            "x": 1504,
+            "h": 16
+          },
+          {
+            "x": 1648,
+            "h": 16
+          },
+          {
+            "x": 1800,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 13,
+        "speed": 56,
+        "x": 394.25,
+        "y": 106.9375
+      },
+      "samples": [
+        {
+          "frame": 348,
+          "width": 160,
+          "height": 144,
+          "sha256": "7f68a13987b7ce437eef968bcfdbdcfae6e1da770833972ab7599ef14f97b6f2",
+          "rgbaSha256": "c62b950a631ec209a89891ffbf33b4b25d466d4424fd843dec456ab6178d8006",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/7f68a13987b7ce437eef968bcfdbdcfae6e1da770833972ab7599ef14f97b6f2.png"
+        },
+        {
+          "frame": 361,
+          "width": 160,
+          "height": 144,
+          "sha256": "f59a7d8d37152e4d06ffa7a56ce26173aa37447064d1d265f7a1ae8c85bb4bc9",
+          "rgbaSha256": "5f00283bc01488ee3f6a13687d14a930a7ab9f80807c8451b74dd006fa2bd02c",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/f59a7d8d37152e4d06ffa7a56ce26173aa37447064d1d265f7a1ae8c85bb4bc9.png"
+        },
+        {
+          "frame": 375,
+          "width": 160,
+          "height": 144,
+          "sha256": "0d204a60a657b4437b88d72d994a5a90adf16686a53b36f458c33b72f3f75fda",
+          "rgbaSha256": "dc9f3ab1af336ef70a10c1bdd214edd852c48ddec2f86ac090a757c5ebdb25d1",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/0d204a60a657b4437b88d72d994a5a90adf16686a53b36f458c33b72f3f75fda.png"
+        }
+      ]
+    },
+    {
+      "test": "course1 obstacle 3",
+      "state": {
+        "frame": 459,
+        "rng": 54566,
+        "courses": 0,
+        "fish": 19,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 285,
+        "ice": [
+          {
+            "x": 216,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 24
+          },
+          {
+            "x": 792,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1088,
+            "h": 16
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1376,
+            "h": 16
+          },
+          {
+            "x": 1504,
+            "h": 16
+          },
+          {
+            "x": 1648,
+            "h": 16
+          },
+          {
+            "x": 1800,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 19,
+        "speed": 56,
+        "x": 530.75,
+        "y": 106.9375
+      },
+      "samples": [
+        {
+          "frame": 459,
+          "width": 160,
+          "height": 144,
+          "sha256": "3eeac39d90c5090b752f5256543723899b16c32a29ff21229a2d414a34bdacdc",
+          "rgbaSha256": "1b94fdb8548847e0ebb074b3b29ca0bda7a006bd61e253b532339119f06fb93f",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/3eeac39d90c5090b752f5256543723899b16c32a29ff21229a2d414a34bdacdc.png"
+        }
+      ]
+    },
+    {
+      "test": "course1 obstacle 4",
+      "state": {
+        "frame": 542,
+        "rng": 54566,
+        "courses": 0,
+        "fish": 24,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 363,
+        "ice": [
+          {
+            "x": 216,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 24
+          },
+          {
+            "x": 792,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1088,
+            "h": 16
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1376,
+            "h": 16
+          },
+          {
+            "x": 1504,
+            "h": 16
+          },
+          {
+            "x": 1648,
+            "h": 16
+          },
+          {
+            "x": 1800,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 24,
+        "speed": 56,
+        "x": 667.25,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 542,
+          "width": 160,
+          "height": 144,
+          "sha256": "7159a4b73c908763f9b2efe549e56e48a893281990bc718ca7364bf107a53632",
+          "rgbaSha256": "1e5c0ea45d41d11406273f9f066a63357afb2642cbc81a1f56d8b188146cc602",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/7159a4b73c908763f9b2efe549e56e48a893281990bc718ca7364bf107a53632.png"
+        }
+      ]
+    },
+    {
+      "test": "course1 obstacle 5",
+      "state": {
+        "frame": 635,
+        "rng": 54566,
+        "courses": 0,
+        "fish": 31,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 449,
+        "ice": [
+          {
+            "x": 216,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 24
+          },
+          {
+            "x": 792,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1088,
+            "h": 16
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1376,
+            "h": 16
+          },
+          {
+            "x": 1504,
+            "h": 16
+          },
+          {
+            "x": 1648,
+            "h": 16
+          },
+          {
+            "x": 1800,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 31,
+        "speed": 56,
+        "x": 817.75,
+        "y": 106.9375
+      },
+      "samples": [
+        {
+          "frame": 635,
+          "width": 160,
+          "height": 144,
+          "sha256": "1bfbc946709be760672eacb90e7d0572f33a9313beb5ba8851b283ba3ff2a765",
+          "rgbaSha256": "af9a87ebfffff0224493de55b408bcf1ba38cfef9245f0116a3ca590ad6e1342",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/1bfbc946709be760672eacb90e7d0572f33a9313beb5ba8851b283ba3ff2a765.png"
+        }
+      ]
+    },
+    {
+      "test": "course1 obstacle 6",
+      "state": {
+        "frame": 719,
+        "rng": 54566,
+        "courses": 0,
+        "fish": 36,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 528,
+        "ice": [
+          {
+            "x": 216,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 24
+          },
+          {
+            "x": 792,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1088,
+            "h": 16
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1376,
+            "h": 16
+          },
+          {
+            "x": 1504,
+            "h": 16
+          },
+          {
+            "x": 1648,
+            "h": 16
+          },
+          {
+            "x": 1800,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 36,
+        "speed": 56,
+        "x": 956,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 719,
+          "width": 160,
+          "height": 144,
+          "sha256": "264dfe3a80d84f399c5c0197ec14b89dfadefe3f39e81b4b411370e9f5c72eaa",
+          "rgbaSha256": "7ffa1e641b246dba8bb04928495029038aeb4ec59bb06d069caa0181cee89bc4",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/264dfe3a80d84f399c5c0197ec14b89dfadefe3f39e81b4b411370e9f5c72eaa.png"
+        }
+      ]
+    },
+    {
+      "test": "course1 obstacle 7",
+      "state": {
+        "frame": 816,
+        "rng": 54566,
+        "courses": 0,
+        "fish": 43,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 618,
+        "ice": [
+          {
+            "x": 216,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 24
+          },
+          {
+            "x": 792,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1088,
+            "h": 16
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1376,
+            "h": 16
+          },
+          {
+            "x": 1504,
+            "h": 16
+          },
+          {
+            "x": 1648,
+            "h": 16
+          },
+          {
+            "x": 1800,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 43,
+        "speed": 56,
+        "x": 1113.5,
+        "y": 106.9375
+      },
+      "samples": [
+        {
+          "frame": 816,
+          "width": 160,
+          "height": 144,
+          "sha256": "efeedf773ec6333d220e0eef20f6d346304d0c88d539d052c08e4e7042932685",
+          "rgbaSha256": "4dea76a20fe453e1dc1eae5080788cfc1ae30c59096d00fbc0820c8a92b41266",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/efeedf773ec6333d220e0eef20f6d346304d0c88d539d052c08e4e7042932685.png"
+        }
+      ]
+    },
+    {
+      "test": "course1 obstacle 8",
+      "state": {
+        "frame": 896,
+        "rng": 54566,
+        "courses": 0,
+        "fish": 48,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 693,
+        "ice": [
+          {
+            "x": 216,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 24
+          },
+          {
+            "x": 792,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1088,
+            "h": 16
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1376,
+            "h": 16
+          },
+          {
+            "x": 1504,
+            "h": 16
+          },
+          {
+            "x": 1648,
+            "h": 16
+          },
+          {
+            "x": 1800,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 48,
+        "speed": 56,
+        "x": 1244.75,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 896,
+          "width": 160,
+          "height": 144,
+          "sha256": "1445e431c6fc156ec370c3a46b0928c5eb2eca3f5c5ca8f73488ba6ff69a1b2a",
+          "rgbaSha256": "f16b790ec649e90605acf199ea3ea9098a457e9efd9bbbbe8cf904479bd0b248",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/1445e431c6fc156ec370c3a46b0928c5eb2eca3f5c5ca8f73488ba6ff69a1b2a.png"
+        }
+      ]
+    },
+    {
+      "test": "course1 obstacle 9",
+      "state": {
+        "frame": 993,
+        "rng": 54566,
+        "courses": 0,
+        "fish": 55,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 783,
+        "ice": [
+          {
+            "x": 216,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 24
+          },
+          {
+            "x": 792,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1088,
+            "h": 16
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1376,
+            "h": 16
+          },
+          {
+            "x": 1504,
+            "h": 16
+          },
+          {
+            "x": 1648,
+            "h": 16
+          },
+          {
+            "x": 1800,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 55,
+        "speed": 56,
+        "x": 1402.25,
+        "y": 106.9375
+      },
+      "samples": [
+        {
+          "frame": 993,
+          "width": 160,
+          "height": 144,
+          "sha256": "35046f4df7c85a346e0cec6de4a2174973264215c456df21847b6c472bb70bd4",
+          "rgbaSha256": "d2703cfc85d0b82406785cd9c81f7060877d195991608ef6686458868b5f778b",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/35046f4df7c85a346e0cec6de4a2174973264215c456df21847b6c472bb70bd4.png"
+        }
+      ]
+    },
+    {
+      "test": "course1 obstacle 10",
+      "state": {
+        "frame": 1072,
+        "rng": 54566,
+        "courses": 0,
+        "fish": 60,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 857,
+        "ice": [
+          {
+            "x": 216,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 24
+          },
+          {
+            "x": 792,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1088,
+            "h": 16
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1376,
+            "h": 16
+          },
+          {
+            "x": 1504,
+            "h": 16
+          },
+          {
+            "x": 1648,
+            "h": 16
+          },
+          {
+            "x": 1800,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 60,
+        "speed": 56,
+        "x": 1531.75,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 1072,
+          "width": 160,
+          "height": 144,
+          "sha256": "2e043622e2fb5af94dd4c37eb42e7fb446729c4b9309f62f632c5390a4cf4c91",
+          "rgbaSha256": "cc10cc2476d35f7fbecb82edc4ff42666212086032bba98f3a786d6883051b9a",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/2e043622e2fb5af94dd4c37eb42e7fb446729c4b9309f62f632c5390a4cf4c91.png"
+        }
+      ]
+    },
+    {
+      "test": "course1 obstacle 11",
+      "state": {
+        "frame": 1160,
+        "rng": 54566,
+        "courses": 0,
+        "fish": 66,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 939,
+        "ice": [
+          {
+            "x": 216,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 24
+          },
+          {
+            "x": 792,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1088,
+            "h": 16
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1376,
+            "h": 16
+          },
+          {
+            "x": 1504,
+            "h": 16
+          },
+          {
+            "x": 1648,
+            "h": 16
+          },
+          {
+            "x": 1800,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 66,
+        "speed": 56,
+        "x": 1675.25,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 1160,
+          "width": 160,
+          "height": 144,
+          "sha256": "f92cb92185ea3a6b0100dff59670600d6e9a3f7b5a88a412450be0b917fd0149",
+          "rgbaSha256": "f203fce9cdb5ad000418e32571730f86e49072cac13320a68a0d7a8b72d6be36",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/f92cb92185ea3a6b0100dff59670600d6e9a3f7b5a88a412450be0b917fd0149.png"
+        }
+      ]
+    },
+    {
+      "test": "course1 obstacle 12",
+      "state": {
+        "frame": 1253,
+        "rng": 54566,
+        "courses": 0,
+        "fish": 72,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 1027,
+        "ice": [
+          {
+            "x": 216,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 24
+          },
+          {
+            "x": 792,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1088,
+            "h": 16
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1376,
+            "h": 16
+          },
+          {
+            "x": 1504,
+            "h": 16
+          },
+          {
+            "x": 1648,
+            "h": 16
+          },
+          {
+            "x": 1800,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 72,
+        "speed": 56,
+        "x": 1829.25,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 1253,
+          "width": 160,
+          "height": 144,
+          "sha256": "dbbd074d8e801bb233f2981b82803ac8f4f3464642d194cccd787a2cb1e8d1c3",
+          "rgbaSha256": "5cbd1f29e65e1fd896721a26af371dd79197da34605544f09b54016a6d37c1e4",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/dbbd074d8e801bb233f2981b82803ac8f4f3464642d194cccd787a2cb1e8d1c3.png"
+        }
+      ]
+    },
+    {
+      "test": "course1 end approach",
+      "state": {
+        "frame": 1353,
+        "rng": 54566,
+        "courses": 1,
+        "fish": 72,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 55,
+        "ticks": 1109,
+        "ice": [
+          {
+            "x": 216,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 24
+          },
+          {
+            "x": 792,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1088,
+            "h": 16
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1376,
+            "h": 16
+          },
+          {
+            "x": 1504,
+            "h": 16
+          },
+          {
+            "x": 1648,
+            "h": 16
+          },
+          {
+            "x": 1800,
+            "h": 16
+          }
+        ],
+        "phase": 2,
+        "progress": 72,
+        "speed": 56,
+        "x": 1972.75,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 1303,
+          "width": 160,
+          "height": 144,
+          "sha256": "33fef8c240610c04f5f59affcf2517e9765b26da242300eb7e33425a976468e4",
+          "rgbaSha256": "c10f852e2be10dc6b6f328c8b90ea5f0f74278d69ffee6785ea85dda8a258dda",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/33fef8c240610c04f5f59affcf2517e9765b26da242300eb7e33425a976468e4.png"
+        },
+        {
+          "frame": 1353,
+          "width": 160,
+          "height": 144,
+          "sha256": "2eee344e96870a694c6d6422373d79570e685a0a2507ac8365fa0128d7c906f9",
+          "rgbaSha256": "4f093406bc83d47bd43f38b973b41ae851de476968852bd7e2b947fde6ad2152",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/2eee344e96870a694c6d6422373d79570e685a0a2507ac8365fa0128d7c906f9.png"
+        }
+      ]
+    },
+    {
+      "test": "automatic course2 and new layout",
+      "state": {
+        "frame": 1423,
+        "rng": 43784,
+        "courses": 1,
+        "fish": 72,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 1121,
+        "ice": [
+          {
+            "x": 208,
+            "h": 24
+          },
+          {
+            "x": 352,
+            "h": 24
+          },
+          {
+            "x": 512,
+            "h": 16
+          },
+          {
+            "x": 656,
+            "h": 24
+          },
+          {
+            "x": 784,
+            "h": 24
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 24
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1368,
+            "h": 16
+          },
+          {
+            "x": 1512,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 16
+          },
+          {
+            "x": 1808,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 72,
+        "speed": 58,
+        "x": 53.75,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 1388,
+          "width": 160,
+          "height": 144,
+          "sha256": "2eee344e96870a694c6d6422373d79570e685a0a2507ac8365fa0128d7c906f9",
+          "rgbaSha256": "4f093406bc83d47bd43f38b973b41ae851de476968852bd7e2b947fde6ad2152",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/2eee344e96870a694c6d6422373d79570e685a0a2507ac8365fa0128d7c906f9.png"
+        },
+        {
+          "frame": 1423,
+          "width": 160,
+          "height": 144,
+          "sha256": "4e837c9b313b5e8030778cc589815dfdc5244c48a21cd5d3a4286ad1b1662a20",
+          "rgbaSha256": "9b533fbfd94bcea373b963a8b85f091e329c755b45d14ff43cf0a8edf6b8f016",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/4e837c9b313b5e8030778cc589815dfdc5244c48a21cd5d3a4286ad1b1662a20.png"
+        }
+      ]
+    },
+    {
+      "test": "course2 obstacle 1",
+      "state": {
+        "frame": 1531,
+        "rng": 43784,
+        "courses": 1,
+        "fish": 78,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 1223,
+        "ice": [
+          {
+            "x": 208,
+            "h": 24
+          },
+          {
+            "x": 352,
+            "h": 24
+          },
+          {
+            "x": 512,
+            "h": 16
+          },
+          {
+            "x": 656,
+            "h": 24
+          },
+          {
+            "x": 784,
+            "h": 24
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 24
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1368,
+            "h": 16
+          },
+          {
+            "x": 1512,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 16
+          },
+          {
+            "x": 1808,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 78,
+        "speed": 58,
+        "x": 238.625,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 1531,
+          "width": 160,
+          "height": 144,
+          "sha256": "9440848b42bd029fdb3dff9dd0a043f7f2824098873e5782c59296b62021847d",
+          "rgbaSha256": "3e26e788abf9027ead69e6580c58d04341c536e523483dd0f231482bfb3ce241",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/9440848b42bd029fdb3dff9dd0a043f7f2824098873e5782c59296b62021847d.png"
+        }
+      ]
+    },
+    {
+      "test": "course2 obstacle 2",
+      "state": {
+        "frame": 1616,
+        "rng": 43784,
+        "courses": 1,
+        "fish": 84,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 1302,
+        "ice": [
+          {
+            "x": 208,
+            "h": 24
+          },
+          {
+            "x": 352,
+            "h": 24
+          },
+          {
+            "x": 512,
+            "h": 16
+          },
+          {
+            "x": 656,
+            "h": 24
+          },
+          {
+            "x": 784,
+            "h": 24
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 24
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1368,
+            "h": 16
+          },
+          {
+            "x": 1512,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 16
+          },
+          {
+            "x": 1808,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 84,
+        "speed": 58,
+        "x": 381.8125,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 1616,
+          "width": 160,
+          "height": 144,
+          "sha256": "8d2ed51471757ff93555cab08fcb63261015e5103c17da80d55889168507f1cb",
+          "rgbaSha256": "3e7f3f58d7fda8b33700cb0a9f450a316219447c54163e11ef1d1db09dc0e1e5",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/8d2ed51471757ff93555cab08fcb63261015e5103c17da80d55889168507f1cb.png"
+        }
+      ]
+    },
+    {
+      "test": "course2 obstacle 3",
+      "state": {
+        "frame": 1710,
+        "rng": 43784,
+        "courses": 1,
+        "fish": 90,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 1390,
+        "ice": [
+          {
+            "x": 208,
+            "h": 24
+          },
+          {
+            "x": 352,
+            "h": 24
+          },
+          {
+            "x": 512,
+            "h": 16
+          },
+          {
+            "x": 656,
+            "h": 24
+          },
+          {
+            "x": 784,
+            "h": 24
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 24
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1368,
+            "h": 16
+          },
+          {
+            "x": 1512,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 16
+          },
+          {
+            "x": 1808,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 90,
+        "speed": 58,
+        "x": 541.3125,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 1710,
+          "width": 160,
+          "height": 144,
+          "sha256": "1108eeb7ee62cdf661746e88725b4c5284dc850e47b7f4a00e8ae127b8193054",
+          "rgbaSha256": "fd68a9424aa84cd8816d3aed7c47a79a28cb1bae341766f8b63ffa1f5a77e8c5",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/1108eeb7ee62cdf661746e88725b4c5284dc850e47b7f4a00e8ae127b8193054.png"
+        }
+      ]
+    },
+    {
+      "test": "course2 obstacle 4",
+      "state": {
+        "frame": 1796,
+        "rng": 43784,
+        "courses": 1,
+        "fish": 97,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 1469,
+        "ice": [
+          {
+            "x": 208,
+            "h": 24
+          },
+          {
+            "x": 352,
+            "h": 24
+          },
+          {
+            "x": 512,
+            "h": 16
+          },
+          {
+            "x": 656,
+            "h": 24
+          },
+          {
+            "x": 784,
+            "h": 24
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 24
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1368,
+            "h": 16
+          },
+          {
+            "x": 1512,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 16
+          },
+          {
+            "x": 1808,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 97,
+        "speed": 58,
+        "x": 684.5,
+        "y": 106.9375
+      },
+      "samples": [
+        {
+          "frame": 1796,
+          "width": 160,
+          "height": 144,
+          "sha256": "b5b9f1f9c7b0276196a203738dba764135fc452c1dae093d5edfc39ea61aa586",
+          "rgbaSha256": "8dd774210a3f247764f9943d136ac3a5df2dbe5869ec83566f2b2d337d797e26",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/b5b9f1f9c7b0276196a203738dba764135fc452c1dae093d5edfc39ea61aa586.png"
+        }
+      ]
+    },
+    {
+      "test": "99 fish no invincibility",
+      "state": {
+        "frame": 1821,
+        "rng": 43784,
+        "courses": 1,
+        "fish": 99,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 1492,
+        "ice": [
+          {
+            "x": 208,
+            "h": 24
+          },
+          {
+            "x": 352,
+            "h": 24
+          },
+          {
+            "x": 512,
+            "h": 16
+          },
+          {
+            "x": 656,
+            "h": 24
+          },
+          {
+            "x": 784,
+            "h": 24
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 24
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1368,
+            "h": 16
+          },
+          {
+            "x": 1512,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 16
+          },
+          {
+            "x": 1808,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 99,
+        "speed": 58,
+        "x": 726.1875,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 1821,
+          "width": 160,
+          "height": 144,
+          "sha256": "1df7bc04adb677f869d22fd85bf0b977fe677bdeba0cbd954ab112b6072306b2",
+          "rgbaSha256": "673fe4d2d55ac1c0a66a92d8c98039bbe5264e213f9adffaf731584a1331beee",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/1df7bc04adb677f869d22fd85bf0b977fe677bdeba0cbd954ab112b6072306b2.png"
+        }
+      ]
+    },
+    {
+      "test": "100 fish activates invincibility",
+      "state": {
+        "frame": 1843,
+        "rng": 43784,
+        "courses": 1,
+        "fish": 100,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 474,
+        "phaseTimer": 0,
+        "ticks": 1513,
+        "ice": [
+          {
+            "x": 208,
+            "h": 24
+          },
+          {
+            "x": 352,
+            "h": 24
+          },
+          {
+            "x": 512,
+            "h": 16
+          },
+          {
+            "x": 656,
+            "h": 24
+          },
+          {
+            "x": 784,
+            "h": 24
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 24
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1368,
+            "h": 16
+          },
+          {
+            "x": 1512,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 16
+          },
+          {
+            "x": 1808,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 0,
+        "speed": 58,
+        "x": 764.25,
+        "y": 81.34375
+      },
+      "samples": [
+        {
+          "frame": 1838,
+          "width": 160,
+          "height": 144,
+          "sha256": "198771dba0061ac30375661cfe8d1843d7f79a77e29648267b5337a9e298c07b",
+          "rgbaSha256": "01c457c722a92743afea70978a2c7c69e4fb928b54e1eb924dd3c10bf9927b67",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/198771dba0061ac30375661cfe8d1843d7f79a77e29648267b5337a9e298c07b.png"
+        },
+        {
+          "frame": 1843,
+          "width": 160,
+          "height": 144,
+          "sha256": "9f2c9f25a7d152b0c5efe2d5ccea2760c3787228d9eff564d8abfe5e871ef2b0",
+          "rgbaSha256": "e4eeaf0f255ee29008b46205a28a6287087072a6aa20c8ccd78579f7fa380dfd",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/9f2c9f25a7d152b0c5efe2d5ccea2760c3787228d9eff564d8abfe5e871ef2b0.png"
+        }
+      ]
+    },
+    {
+      "test": "pause freezes invincibility and position for 120 frames",
+      "before": {
+        "frame": 1857,
+        "rng": 43784,
+        "courses": 1,
+        "fish": 100,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 474,
+        "phaseTimer": 0,
+        "ticks": 1513,
+        "ice": [
+          {
+            "x": 208,
+            "h": 24
+          },
+          {
+            "x": 352,
+            "h": 24
+          },
+          {
+            "x": 512,
+            "h": 16
+          },
+          {
+            "x": 656,
+            "h": 24
+          },
+          {
+            "x": 784,
+            "h": 24
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 24
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1368,
+            "h": 16
+          },
+          {
+            "x": 1512,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 16
+          },
+          {
+            "x": 1808,
+            "h": 16
+          }
+        ],
+        "phase": 1,
+        "progress": 0,
+        "speed": 58,
+        "x": 764.25,
+        "y": 81.34375
+      },
+      "state": {
+        "frame": 1977,
+        "rng": 43784,
+        "courses": 1,
+        "fish": 100,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 474,
+        "phaseTimer": 0,
+        "ticks": 1513,
+        "ice": [
+          {
+            "x": 208,
+            "h": 24
+          },
+          {
+            "x": 352,
+            "h": 24
+          },
+          {
+            "x": 512,
+            "h": 16
+          },
+          {
+            "x": 656,
+            "h": 24
+          },
+          {
+            "x": 784,
+            "h": 24
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 24
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1368,
+            "h": 16
+          },
+          {
+            "x": 1512,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 16
+          },
+          {
+            "x": 1808,
+            "h": 16
+          }
+        ],
+        "phase": 1,
+        "progress": 0,
+        "speed": 58,
+        "x": 764.25,
+        "y": 81.34375
+      },
+      "samples": [
+        {
+          "frame": 1977,
+          "width": 160,
+          "height": 144,
+          "sha256": "8caa0fd59c77f2c554ec841d68023f3578a766d89f89d854aca58bc9285e423d",
+          "rgbaSha256": "2c6a3e669b127ca85c04dddad837645120d1dca3af5acc9512287830ea22a050",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/8caa0fd59c77f2c554ec841d68023f3578a766d89f89d854aca58bc9285e423d.png"
+        }
+      ]
+    },
+    {
+      "test": "invincible ground collision survives",
+      "state": {
+        "frame": 2199,
+        "rng": 43784,
+        "courses": 1,
+        "fish": 110,
+        "bestC": 0,
+        "bestF": 0,
+        "star": 266,
+        "phaseTimer": 0,
+        "ticks": 1721,
+        "ice": [
+          {
+            "x": 208,
+            "h": 24
+          },
+          {
+            "x": 352,
+            "h": 24
+          },
+          {
+            "x": 512,
+            "h": 16
+          },
+          {
+            "x": 656,
+            "h": 24
+          },
+          {
+            "x": 784,
+            "h": 24
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 24
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1368,
+            "h": 16
+          },
+          {
+            "x": 1512,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 16
+          },
+          {
+            "x": 1808,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 10,
+        "speed": 58,
+        "x": 1141.25,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 2059,
+          "width": 160,
+          "height": 144,
+          "sha256": "c0e5a3ecc0d9bb8174e91441271e2597569c09621a44d523c149b0a248bac95c",
+          "rgbaSha256": "776db119c2157d273c852d25d5f4b1f36f90eb749e294b8c3c6538e66c2aaea9",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/c0e5a3ecc0d9bb8174e91441271e2597569c09621a44d523c149b0a248bac95c.png"
+        },
+        {
+          "frame": 2129,
+          "width": 160,
+          "height": 144,
+          "sha256": "0702c3d3b029bd2ad69f892bdb7b94833ed2e58ad471ab832e5b3e9c8726dce9",
+          "rgbaSha256": "886f18d440487f694ebcdb70bbfa201ec00a3e3a44781b58544b834a108cc034",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/0702c3d3b029bd2ad69f892bdb7b94833ed2e58ad471ab832e5b3e9c8726dce9.png"
+        },
+        {
+          "frame": 2199,
+          "width": 160,
+          "height": 144,
+          "sha256": "eaab6cc9c0b8c2055c569b095589236668e020432a56ae242f9cd795fb436b12",
+          "rgbaSha256": "f8c76ac521afcfea79fe1d2893fcb7e96b9a89dca503fe7c580a05c68cc520f4",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/eaab6cc9c0b8c2055c569b095589236668e020432a56ae242f9cd795fb436b12.png"
+        }
+      ]
+    },
+    {
+      "test": "invincibility expires; normal collision causes game over",
+      "state": {
+        "frame": 2529,
+        "rng": 43784,
+        "courses": 1,
+        "fish": 120,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 2003,
+        "ice": [
+          {
+            "x": 208,
+            "h": 24
+          },
+          {
+            "x": 352,
+            "h": 24
+          },
+          {
+            "x": 512,
+            "h": 16
+          },
+          {
+            "x": 656,
+            "h": 24
+          },
+          {
+            "x": 784,
+            "h": 24
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 24
+          },
+          {
+            "x": 1216,
+            "h": 16
+          },
+          {
+            "x": 1368,
+            "h": 16
+          },
+          {
+            "x": 1512,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 16
+          },
+          {
+            "x": 1808,
+            "h": 16
+          }
+        ],
+        "phase": 3,
+        "progress": 20,
+        "speed": 58,
+        "x": 1652.375,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 2309,
+          "width": 160,
+          "height": 144,
+          "sha256": "4faa6ab48f5deae1247ef6768cf304f3ed05afc8e462c6c71218b19b17e94729",
+          "rgbaSha256": "b77518fdcdb0dda221f825cc13bcaab1841f5215d0f0f350fafee4b7dfcf315a",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/4faa6ab48f5deae1247ef6768cf304f3ed05afc8e462c6c71218b19b17e94729.png"
+        },
+        {
+          "frame": 2419,
+          "width": 160,
+          "height": 144,
+          "sha256": "78d764493527c1418b07e650e43bedc13c66a13089f78bed5ea87d9b9776e2bf",
+          "rgbaSha256": "584ba77bb7102f2425fca1baf4ac2a0ad2a5f24cc36d2240f03d97fb931cb403",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/78d764493527c1418b07e650e43bedc13c66a13089f78bed5ea87d9b9776e2bf.png"
+        },
+        {
+          "frame": 2529,
+          "width": 160,
+          "height": 144,
+          "sha256": "36547fe5f42db78d8ebe930e8a31d63c489b3188e9e264aefbb9a8e747164677",
+          "rgbaSha256": "ba39fc987c80e9fa8c910fc16cf7afaf2fba3c5975af4d9e3053392aae6829b2",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/36547fe5f42db78d8ebe930e8a31d63c489b3188e9e264aefbb9a8e747164677.png"
+        }
+      ]
+    },
+    {
+      "test": "retry clears run counters, preserves best, changes layout",
+      "state": {
+        "frame": 2581,
+        "rng": 39379,
+        "courses": 0,
+        "fish": 0,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 8,
+        "ice": [
+          {
+            "x": 224,
+            "h": 24
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 496,
+            "h": 24
+          },
+          {
+            "x": 648,
+            "h": 24
+          },
+          {
+            "x": 800,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 16
+          },
+          {
+            "x": 1232,
+            "h": 16
+          },
+          {
+            "x": 1360,
+            "h": 16
+          },
+          {
+            "x": 1504,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 24
+          },
+          {
+            "x": 1792,
+            "h": 24
+          }
+        ],
+        "phase": 0,
+        "progress": 0,
+        "speed": 56,
+        "x": 46,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 2581,
+          "width": 160,
+          "height": 144,
+          "sha256": "736572458d811b62a771e596080c29ffe5b00ad806cd256721b67cdd7f40e68d",
+          "rgbaSha256": "a4fa4e3f3e78f087e562d3e0f970fb4486d6c77182b4b9106a7a8e8eaa6101b1",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/736572458d811b62a771e596080c29ffe5b00ad806cd256721b67cdd7f40e68d.png"
+        }
+      ]
+    },
+    {
+      "test": "full-run course layout 1",
+      "state": {
+        "frame": 2581,
+        "rng": 39379,
+        "courses": 0,
+        "fish": 0,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 8,
+        "ice": [
+          {
+            "x": 224,
+            "h": 24
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 496,
+            "h": 24
+          },
+          {
+            "x": 648,
+            "h": 24
+          },
+          {
+            "x": 800,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 16
+          },
+          {
+            "x": 1232,
+            "h": 16
+          },
+          {
+            "x": 1360,
+            "h": 16
+          },
+          {
+            "x": 1504,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 24
+          },
+          {
+            "x": 1792,
+            "h": 24
+          }
+        ],
+        "phase": 0,
+        "progress": 0,
+        "speed": 56,
+        "x": 46,
+        "y": 112
+      }
+    },
+    {
+      "test": "full-run course 1 clear",
+      "state": {
+        "frame": 3759,
+        "rng": 39379,
+        "courses": 1,
+        "fish": 72,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 0,
+        "phaseTimer": 66,
+        "ticks": 1109,
+        "ice": [
+          {
+            "x": 224,
+            "h": 24
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 496,
+            "h": 24
+          },
+          {
+            "x": 648,
+            "h": 24
+          },
+          {
+            "x": 800,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 16
+          },
+          {
+            "x": 1232,
+            "h": 16
+          },
+          {
+            "x": 1360,
+            "h": 16
+          },
+          {
+            "x": 1504,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 24
+          },
+          {
+            "x": 1792,
+            "h": 24
+          }
+        ],
+        "phase": 2,
+        "progress": 72,
+        "speed": 56,
+        "x": 1972.75,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 3759,
+          "width": 160,
+          "height": 144,
+          "sha256": "2eee344e96870a694c6d6422373d79570e685a0a2507ac8365fa0128d7c906f9",
+          "rgbaSha256": "4f093406bc83d47bd43f38b973b41ae851de476968852bd7e2b947fde6ad2152",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/2eee344e96870a694c6d6422373d79570e685a0a2507ac8365fa0128d7c906f9.png"
+        }
+      ]
+    },
+    {
+      "test": "next course carries totals and invincibility 1",
+      "state": {
+        "frame": 3837,
+        "rng": 21836,
+        "courses": 1,
+        "fish": 72,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 1118,
+        "ice": [
+          {
+            "x": 224,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 512,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 16
+          },
+          {
+            "x": 800,
+            "h": 24
+          },
+          {
+            "x": 936,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 16
+          },
+          {
+            "x": 1232,
+            "h": 24
+          },
+          {
+            "x": 1360,
+            "h": 24
+          },
+          {
+            "x": 1520,
+            "h": 16
+          },
+          {
+            "x": 1656,
+            "h": 16
+          },
+          {
+            "x": 1792,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 72,
+        "speed": 58,
+        "x": 48.3125,
+        "y": 112
+      }
+    },
+    {
+      "test": "full-run course layout 2",
+      "state": {
+        "frame": 3837,
+        "rng": 21836,
+        "courses": 1,
+        "fish": 72,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 1118,
+        "ice": [
+          {
+            "x": 224,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 512,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 16
+          },
+          {
+            "x": 800,
+            "h": 24
+          },
+          {
+            "x": 936,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 16
+          },
+          {
+            "x": 1232,
+            "h": 24
+          },
+          {
+            "x": 1360,
+            "h": 24
+          },
+          {
+            "x": 1520,
+            "h": 16
+          },
+          {
+            "x": 1656,
+            "h": 16
+          },
+          {
+            "x": 1792,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 72,
+        "speed": 58,
+        "x": 48.3125,
+        "y": 112
+      }
+    },
+    {
+      "test": "100 fish in second attempt",
+      "state": {
+        "frame": 4298,
+        "rng": 21836,
+        "courses": 1,
+        "fish": 103,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 448,
+        "phaseTimer": 0,
+        "ticks": 1548,
+        "ice": [
+          {
+            "x": 224,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 512,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 16
+          },
+          {
+            "x": 800,
+            "h": 24
+          },
+          {
+            "x": 936,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 16
+          },
+          {
+            "x": 1232,
+            "h": 24
+          },
+          {
+            "x": 1360,
+            "h": 24
+          },
+          {
+            "x": 1520,
+            "h": 16
+          },
+          {
+            "x": 1656,
+            "h": 16
+          },
+          {
+            "x": 1792,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 3,
+        "speed": 58,
+        "x": 827.6875,
+        "y": 106.9375
+      },
+      "samples": [
+        {
+          "frame": 4298,
+          "width": 160,
+          "height": 144,
+          "sha256": "11336d27e267c92c48464669d701af8ef97a54847ab1cdf0ed3bdbffc5291f70",
+          "rgbaSha256": "797bcdb49309375fa5dc899f3bc6251d4fa4e21171ae45d682942a9797715c69",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/11336d27e267c92c48464669d701af8ef97a54847ab1cdf0ed3bdbffc5291f70.png"
+        }
+      ]
+    },
+    {
+      "test": "full-run course 2 clear",
+      "state": {
+        "frame": 4984,
+        "rng": 21836,
+        "courses": 2,
+        "fish": 144,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 0,
+        "phaseTimer": 62,
+        "ticks": 2180,
+        "ice": [
+          {
+            "x": 224,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 512,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 16
+          },
+          {
+            "x": 800,
+            "h": 24
+          },
+          {
+            "x": 936,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 16
+          },
+          {
+            "x": 1232,
+            "h": 24
+          },
+          {
+            "x": 1360,
+            "h": 24
+          },
+          {
+            "x": 1520,
+            "h": 16
+          },
+          {
+            "x": 1656,
+            "h": 16
+          },
+          {
+            "x": 1792,
+            "h": 16
+          }
+        ],
+        "phase": 2,
+        "progress": 44,
+        "speed": 58,
+        "x": 1973.1875,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 4984,
+          "width": 160,
+          "height": 144,
+          "sha256": "8e7f66cdf9f71fd24e0e808f8361d266c4f2972552d809cc0346e9aab912aa2d",
+          "rgbaSha256": "72386eb4d6c073ccee3fc52a306e2adfb2cba2999f73fdf58300862e4608716b",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/8e7f66cdf9f71fd24e0e808f8361d266c4f2972552d809cc0346e9aab912aa2d.png"
+        }
+      ]
+    },
+    {
+      "test": "next course carries totals and invincibility 2",
+      "state": {
+        "frame": 5058,
+        "rng": 50072,
+        "courses": 2,
+        "fish": 144,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 2189,
+        "ice": [
+          {
+            "x": 224,
+            "h": 24
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 16
+          },
+          {
+            "x": 800,
+            "h": 16
+          },
+          {
+            "x": 936,
+            "h": 24
+          },
+          {
+            "x": 1080,
+            "h": 16
+          },
+          {
+            "x": 1232,
+            "h": 24
+          },
+          {
+            "x": 1368,
+            "h": 24
+          },
+          {
+            "x": 1504,
+            "h": 24
+          },
+          {
+            "x": 1648,
+            "h": 24
+          },
+          {
+            "x": 1792,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 44,
+        "speed": 60,
+        "x": 48.875,
+        "y": 112
+      }
+    },
+    {
+      "test": "full-run course layout 3",
+      "state": {
+        "frame": 5058,
+        "rng": 50072,
+        "courses": 2,
+        "fish": 144,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 2189,
+        "ice": [
+          {
+            "x": 224,
+            "h": 24
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 16
+          },
+          {
+            "x": 800,
+            "h": 16
+          },
+          {
+            "x": 936,
+            "h": 24
+          },
+          {
+            "x": 1080,
+            "h": 16
+          },
+          {
+            "x": 1232,
+            "h": 24
+          },
+          {
+            "x": 1368,
+            "h": 24
+          },
+          {
+            "x": 1504,
+            "h": 24
+          },
+          {
+            "x": 1648,
+            "h": 24
+          },
+          {
+            "x": 1792,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 44,
+        "speed": 60,
+        "x": 48.875,
+        "y": 112
+      }
+    },
+    {
+      "test": "200 fish activates second invincibility",
+      "state": {
+        "frame": 5911,
+        "rng": 50072,
+        "courses": 2,
+        "fish": 204,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 418,
+        "phaseTimer": 0,
+        "ticks": 2981,
+        "ice": [
+          {
+            "x": 224,
+            "h": 24
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 16
+          },
+          {
+            "x": 800,
+            "h": 16
+          },
+          {
+            "x": 936,
+            "h": 24
+          },
+          {
+            "x": 1080,
+            "h": 16
+          },
+          {
+            "x": 1232,
+            "h": 24
+          },
+          {
+            "x": 1368,
+            "h": 24
+          },
+          {
+            "x": 1504,
+            "h": 24
+          },
+          {
+            "x": 1648,
+            "h": 24
+          },
+          {
+            "x": 1792,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 4,
+        "speed": 60,
+        "x": 1533.875,
+        "y": 106.9375
+      },
+      "samples": [
+        {
+          "frame": 5911,
+          "width": 160,
+          "height": 144,
+          "sha256": "624dfe1cebc008b7991f49e48325104da14ea07f1b5eda4d0e16675205d4f8f4",
+          "rgbaSha256": "583b75540ed6fcd480e14ff6e864d4715bcad05c10d578d51c1bb8544a135e00",
+          "sampledButtons": [
+            "a"
+          ],
+          "path": "./build/playtest-v2/frames/624dfe1cebc008b7991f49e48325104da14ea07f1b5eda4d0e16675205d4f8f4.png"
+        }
+      ]
+    },
+    {
+      "test": "full-run course 3 clear",
+      "state": {
+        "frame": 6170,
+        "rng": 50072,
+        "courses": 3,
+        "fish": 216,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 184,
+        "phaseTimer": 59,
+        "ticks": 3215,
+        "ice": [
+          {
+            "x": 224,
+            "h": 24
+          },
+          {
+            "x": 368,
+            "h": 24
+          },
+          {
+            "x": 504,
+            "h": 16
+          },
+          {
+            "x": 640,
+            "h": 16
+          },
+          {
+            "x": 800,
+            "h": 16
+          },
+          {
+            "x": 936,
+            "h": 24
+          },
+          {
+            "x": 1080,
+            "h": 16
+          },
+          {
+            "x": 1232,
+            "h": 24
+          },
+          {
+            "x": 1368,
+            "h": 24
+          },
+          {
+            "x": 1504,
+            "h": 24
+          },
+          {
+            "x": 1648,
+            "h": 24
+          },
+          {
+            "x": 1792,
+            "h": 16
+          }
+        ],
+        "phase": 2,
+        "progress": 16,
+        "speed": 60,
+        "x": 1972.625,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 6170,
+          "width": 160,
+          "height": 144,
+          "sha256": "633de486eacff9d8adc9d2527e6a3b702dc385c73ce440d5c0f01cfcdbb327b3",
+          "rgbaSha256": "1ba16c31ad82b5e4c9a9843b6b23806e9f34b2f6e56b15ca6383af7aac3f4451",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/633de486eacff9d8adc9d2527e6a3b702dc385c73ce440d5c0f01cfcdbb327b3.png"
+        }
+      ]
+    },
+    {
+      "test": "next course carries totals and invincibility 3",
+      "state": {
+        "frame": 6241,
+        "rng": 16300,
+        "courses": 3,
+        "fish": 216,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 175,
+        "phaseTimer": 0,
+        "ticks": 3224,
+        "ice": [
+          {
+            "x": 208,
+            "h": 16
+          },
+          {
+            "x": 352,
+            "h": 24
+          },
+          {
+            "x": 496,
+            "h": 24
+          },
+          {
+            "x": 656,
+            "h": 24
+          },
+          {
+            "x": 800,
+            "h": 24
+          },
+          {
+            "x": 936,
+            "h": 24
+          },
+          {
+            "x": 1080,
+            "h": 16
+          },
+          {
+            "x": 1232,
+            "h": 16
+          },
+          {
+            "x": 1360,
+            "h": 24
+          },
+          {
+            "x": 1504,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 24
+          },
+          {
+            "x": 1808,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 16,
+        "speed": 62,
+        "x": 49.4375,
+        "y": 112
+      }
+    },
+    {
+      "test": "full-run course layout 4",
+      "state": {
+        "frame": 6241,
+        "rng": 16300,
+        "courses": 3,
+        "fish": 216,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 175,
+        "phaseTimer": 0,
+        "ticks": 3224,
+        "ice": [
+          {
+            "x": 208,
+            "h": 16
+          },
+          {
+            "x": 352,
+            "h": 24
+          },
+          {
+            "x": 496,
+            "h": 24
+          },
+          {
+            "x": 656,
+            "h": 24
+          },
+          {
+            "x": 800,
+            "h": 24
+          },
+          {
+            "x": 936,
+            "h": 24
+          },
+          {
+            "x": 1080,
+            "h": 16
+          },
+          {
+            "x": 1232,
+            "h": 16
+          },
+          {
+            "x": 1360,
+            "h": 24
+          },
+          {
+            "x": 1504,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 24
+          },
+          {
+            "x": 1808,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 16,
+        "speed": 62,
+        "x": 49.4375,
+        "y": 112
+      }
+    },
+    {
+      "test": "full-run course 4 clear",
+      "state": {
+        "frame": 7332,
+        "rng": 16300,
+        "courses": 4,
+        "fish": 288,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 0,
+        "phaseTimer": 48,
+        "ticks": 4217,
+        "ice": [
+          {
+            "x": 208,
+            "h": 16
+          },
+          {
+            "x": 352,
+            "h": 24
+          },
+          {
+            "x": 496,
+            "h": 24
+          },
+          {
+            "x": 656,
+            "h": 24
+          },
+          {
+            "x": 800,
+            "h": 24
+          },
+          {
+            "x": 936,
+            "h": 24
+          },
+          {
+            "x": 1080,
+            "h": 16
+          },
+          {
+            "x": 1232,
+            "h": 16
+          },
+          {
+            "x": 1360,
+            "h": 24
+          },
+          {
+            "x": 1504,
+            "h": 24
+          },
+          {
+            "x": 1664,
+            "h": 24
+          },
+          {
+            "x": 1808,
+            "h": 16
+          }
+        ],
+        "phase": 2,
+        "progress": 88,
+        "speed": 62,
+        "x": 1973.375,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 7332,
+          "width": 160,
+          "height": 144,
+          "sha256": "22dd83af0fe7fbeb3c80aa2cad27379eaef17643d6eb03a65e0af67780dfc4ca",
+          "rgbaSha256": "a1a4aaa67edc53bc6cb0316e48e9bb486e1c13479f33c4ff2a7a1ae6fa1af417",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/22dd83af0fe7fbeb3c80aa2cad27379eaef17643d6eb03a65e0af67780dfc4ca.png"
+        }
+      ]
+    },
+    {
+      "test": "full-run course layout 5",
+      "state": {
+        "frame": 7392,
+        "rng": 5046,
+        "courses": 4,
+        "fish": 288,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 4226,
+        "ice": [
+          {
+            "x": 216,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 16
+          },
+          {
+            "x": 496,
+            "h": 24
+          },
+          {
+            "x": 640,
+            "h": 16
+          },
+          {
+            "x": 784,
+            "h": 24
+          },
+          {
+            "x": 928,
+            "h": 24
+          },
+          {
+            "x": 1080,
+            "h": 24
+          },
+          {
+            "x": 1224,
+            "h": 16
+          },
+          {
+            "x": 1368,
+            "h": 24
+          },
+          {
+            "x": 1504,
+            "h": 16
+          },
+          {
+            "x": 1648,
+            "h": 24
+          },
+          {
+            "x": 1792,
+            "h": 16
+          }
+        ],
+        "phase": 0,
+        "progress": 88,
+        "speed": 64,
+        "x": 50,
+        "y": 112
+      }
+    },
+    {
+      "test": "full-run course 5 clear",
+      "state": {
+        "frame": 8449,
+        "rng": 5046,
+        "courses": 5,
+        "fish": 360,
+        "bestC": 1,
+        "bestF": 120,
+        "star": 0,
+        "phaseTimer": 51,
+        "ticks": 5187,
+        "ice": [
+          {
+            "x": 216,
+            "h": 16
+          },
+          {
+            "x": 368,
+            "h": 16
+          },
+          {
+            "x": 496,
+            "h": 24
+          },
+          {
+            "x": 640,
+            "h": 16
+          },
+          {
+            "x": 784,
+            "h": 24
+          },
+          {
+            "x": 928,
+            "h": 24
+          },
+          {
+            "x": 1080,
+            "h": 24
+          },
+          {
+            "x": 1224,
+            "h": 16
+          },
+          {
+            "x": 1368,
+            "h": 24
+          },
+          {
+            "x": 1504,
+            "h": 16
+          },
+          {
+            "x": 1648,
+            "h": 24
+          },
+          {
+            "x": 1792,
+            "h": 16
+          }
+        ],
+        "phase": 2,
+        "progress": 60,
+        "speed": 64,
+        "x": 1972,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 8449,
+          "width": 160,
+          "height": 144,
+          "sha256": "2ad5f6d769b6151c7341a409ba5faf1ab8af2f49e6099dceedb985a361093490",
+          "rgbaSha256": "5697a63f05c93163d5bbd2e7c951668172e03ac1c54fafadc48c52a86121e5a2",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/2ad5f6d769b6151c7341a409ba5faf1ab8af2f49e6099dceedb985a361093490.png"
+        }
+      ]
+    },
+    {
+      "test": "sampled OAM at 24 approaches",
+      "peakObjects": 7,
+      "overLimitScanlines": 0
+    },
+    {
+      "test": "five-course best recorded on death",
+      "state": {
+        "frame": 8862,
+        "rng": 65219,
+        "courses": 5,
+        "fish": 363,
+        "bestC": 5,
+        "bestF": 363,
+        "star": 0,
+        "phaseTimer": 0,
+        "ticks": 5277,
+        "ice": [
+          {
+            "x": 224,
+            "h": 24
+          },
+          {
+            "x": 368,
+            "h": 16
+          },
+          {
+            "x": 504,
+            "h": 24
+          },
+          {
+            "x": 656,
+            "h": 16
+          },
+          {
+            "x": 792,
+            "h": 16
+          },
+          {
+            "x": 928,
+            "h": 16
+          },
+          {
+            "x": 1072,
+            "h": 24
+          },
+          {
+            "x": 1216,
+            "h": 24
+          },
+          {
+            "x": 1376,
+            "h": 16
+          },
+          {
+            "x": 1520,
+            "h": 16
+          },
+          {
+            "x": 1656,
+            "h": 16
+          },
+          {
+            "x": 1792,
+            "h": 24
+          }
+        ],
+        "phase": 3,
+        "progress": 63,
+        "speed": 64,
+        "x": 212,
+        "y": 112
+      },
+      "samples": [
+        {
+          "frame": 8687,
+          "width": 160,
+          "height": 144,
+          "sha256": "2648a042adb7be12baaeb6c716ce38a3b254bfd7bd164a6bb8d9637b1c0f1b20",
+          "rgbaSha256": "9696f971ba1d963693c1fc57abe55bbfdd7e52b311a198c0f412ef98abc3f536",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/2648a042adb7be12baaeb6c716ce38a3b254bfd7bd164a6bb8d9637b1c0f1b20.png"
+        },
+        {
+          "frame": 8862,
+          "width": 160,
+          "height": 144,
+          "sha256": "2648a042adb7be12baaeb6c716ce38a3b254bfd7bd164a6bb8d9637b1c0f1b20",
+          "rgbaSha256": "9696f971ba1d963693c1fc57abe55bbfdd7e52b311a198c0f412ef98abc3f536",
+          "sampledButtons": [],
+          "path": "./build/playtest-v2/frames/2648a042adb7be12baaeb6c716ce38a3b254bfd7bd164a6bb8d9637b1c0f1b20.png"
+        }
+      ]
+    }
+  ]
+}

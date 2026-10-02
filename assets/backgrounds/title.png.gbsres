@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bace1940-2598-5d84-a721-952022405c44",
+  "name": "Penguin Jump タイトル",
+  "symbol": "bg_penguin_jump",
+  "tileColors": "0014+02a0+00b4+",
+  "filename": "title.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

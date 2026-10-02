@@ -1,0 +1,42 @@
+{
+  "_resourceType": "scene",
+  "id": "cbb813b0-0b19-5bda-8481-6629aecad1ea",
+  "_index": 1,
+  "type": "PENGUIN",
+  "name": "エンドレス・アイスラン",
+  "symbol": "scene_scene",
+  "x": 260,
+  "y": 0,
+  "width": 254,
+  "height": 18,
+  "backgroundId": "45606688-51b1-5ca8-b735-b462b162e328",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "40cc41cc-471f-5271-94c6-da618e561b87",
+    "9f3ec21a-bba1-5d8e-b6a8-2e3f179e6b80",
+    "c1872bb4-4802-5493-82b2-83ea322af582",
+    "3ab55c78-b705-58c0-aed8-80e637ff3e64",
+    "ee7c0c8d-195a-45ea-9c36-2bb3a0fc2b9c",
+    "3c69ca8c-e9da-52bd-9f36-7a3bec570ecc",
+    "f365d608-7181-564c-83b5-ab724bead67f"
+  ],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0011dc+",
+  "patch": {
+    "spritePaletteIds": [
+      "40cc41cc-471f-5271-94c6-da618e561b87",
+      "9f3ec21a-bba1-5d8e-b6a8-2e3f179e6b80",
+      "c1872bb4-4802-5493-82b2-83ea322af582",
+      "3ab55c78-b705-58c0-aed8-80e637ff3e64",
+      "ee7c0c8d-195a-45ea-9c36-2bb3a0fc2b9c",
+      "3c69ca8c-e9da-52bd-9f36-7a3bec570ecc",
+      "f365d608-7181-564c-83b5-ab724bead67f"
+    ]
+  }
+}

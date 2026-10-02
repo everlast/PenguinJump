@@ -1,0 +1,32 @@
+{
+  "rom": "outputs/PenguinJump/build/PenguinJump-v7.gbc",
+  "sha256": "c124a41c79583cefa04851da4ad325ad583cf67741ccded0952e697edf17c381",
+  "frames": [
+    {
+      "frame": 0,
+      "name": "right-0",
+      "mismatchedPixels": 0
+    },
+    {
+      "frame": 1,
+      "name": "right-1",
+      "mismatchedPixels": 0
+    },
+    {
+      "frame": 2,
+      "name": "left-0",
+      "mismatchedPixels": 0
+    },
+    {
+      "frame": 3,
+      "name": "left-1",
+      "mismatchedPixels": 0
+    },
+    {
+      "frame": 4,
+      "name": "squash",
+      "mismatchedPixels": 0
+    }
+  ],
+  "passed": true
+}

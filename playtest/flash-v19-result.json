@@ -1,0 +1,402 @@
+{
+  "operationId": "c6a7aaa50d0ed0df32a33305bcfef6dc3add520bae79c772e21f6484b956ecb9",
+  "inputFingerprint": "b60f73425fa9e527601df7b69f2e90ebda95e56bdeb955fd9b90fb0f27a633ee",
+  "command": "flash",
+  "requestId": "penguin-jump-v19-flash-20261003-8c13344a",
+  "state": "succeeded",
+  "stage": "finished",
+  "createdAt": "2026-10-02T15:29:12.271Z",
+  "commands": [
+    {
+      "args": [
+        "list-devices",
+        "--format",
+        "json",
+        "--yes"
+      ],
+      "events": [
+        {
+          "type": "started",
+          "command": "<home>/.modretro-chromatic-runtime/fd6a1b542a510f3ee1e047e83d31e1ad96bd4580fe7c59fbc558befba778beae/darwin-arm64-37257304b250634c586b0061e6f75dc1bec6ebaa57da1b9937106fa1fd370c70/chromatic-cli",
+          "args": [
+            "list-devices",
+            "--format",
+            "json",
+            "--yes"
+          ],
+          "version": "1.2.1",
+          "target": "darwin-arm64",
+          "startedAt": "2026-10-02T15:29:12.520Z",
+          "pid": 93135,
+          "interruptions": [],
+          "observationErrors": [],
+          "observationCounts": {
+            "failedCallbacks": 0,
+            "skippedCallbacks": 0
+          }
+        },
+        {
+          "type": "spawn",
+          "at": "2026-10-02T15:29:12.525Z",
+          "pid": 93135
+        },
+        {
+          "type": "exit",
+          "code": 0,
+          "signal": null,
+          "at": "2026-10-02T15:29:12.535Z"
+        },
+        {
+          "type": "close",
+          "code": 0,
+          "signal": null,
+          "at": "2026-10-02T15:29:12.540Z"
+        }
+      ],
+      "streamFiles": {
+        "stdout": "command-0.stdout",
+        "stderr": "command-0.stderr"
+      },
+      "observedOutput": {
+        "stdout": 324,
+        "stderr": 0
+      },
+      "rawOutput": {
+        "stdout": {
+          "observedBytes": 324,
+          "retainedBytes": 324,
+          "complete": true,
+          "sha256": "4fd439685b70b5e176cf649c5abb61c12838f3f248dd6dabd3f338e463bc7d1f"
+        },
+        "stderr": {
+          "observedBytes": 0,
+          "retainedBytes": 0,
+          "complete": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "dispatchAttemptedAt": "2026-10-02T15:29:12.282Z",
+      "process": {
+        "command": "<home>/.modretro-chromatic-runtime/fd6a1b542a510f3ee1e047e83d31e1ad96bd4580fe7c59fbc558befba778beae/darwin-arm64-37257304b250634c586b0061e6f75dc1bec6ebaa57da1b9937106fa1fd370c70/chromatic-cli",
+        "args": [
+          "list-devices",
+          "--format",
+          "json",
+          "--yes"
+        ],
+        "version": "1.2.1",
+        "target": "darwin-arm64",
+        "startedAt": "2026-10-02T15:29:12.520Z",
+        "pid": 93135,
+        "interruptions": [],
+        "observationErrors": [],
+        "observationCounts": {
+          "failedCallbacks": 0,
+          "skippedCallbacks": 0
+        },
+        "spawn": {
+          "at": "2026-10-02T15:29:12.525Z",
+          "pid": 93135
+        },
+        "exit": {
+          "code": 0,
+          "signal": null,
+          "at": "2026-10-02T15:29:12.535Z"
+        },
+        "close": {
+          "code": 0,
+          "signal": null,
+          "at": "2026-10-02T15:29:12.540Z"
+        },
+        "stdout": {
+          "bytes": 324,
+          "retainedBytes": 324,
+          "truncated": false,
+          "endObserved": true,
+          "closeObserved": true,
+          "text": "{\"schema_version\":1,\"operation\":\"list-devices\",\"ok\":true,\"result\":{\"devices\":[{\"gwu2x\":{\"product\":\"GWU2X\",\"product_id\":288,\"vendor_id\":13226},\"location\":{\"bus_id\":\"00\",\"port_chain\":[1,2,1,3]},\"player\":1,\"player_function\":{\"product\":\"Chromatic - Player 01\",\"product_id\":257,\"vendor_id\":14158}}],\"unmatched\":[]},\"error\":null}\n",
+          "utf8Valid": true
+        },
+        "stderr": {
+          "bytes": 0,
+          "retainedBytes": 0,
+          "truncated": false,
+          "endObserved": true,
+          "closeObserved": true,
+          "text": "",
+          "utf8Valid": true
+        }
+      },
+      "vendor": {
+        "schema_version": 1,
+        "operation": "list-devices",
+        "ok": true,
+        "result": {
+          "devices": [
+            {
+              "gwu2x": {
+                "product": "GWU2X",
+                "product_id": 288,
+                "vendor_id": 13226
+              },
+              "location": {
+                "bus_id": "00",
+                "port_chain": [
+                  1,
+                  2,
+                  1,
+                  3
+                ]
+              },
+              "player": 1,
+              "player_function": {
+                "product": "Chromatic - Player 01",
+                "product_id": 257,
+                "vendor_id": 14158
+              }
+            }
+          ],
+          "unmatched": []
+        },
+        "error": null
+      }
+    },
+    {
+      "args": [
+        "write-homebrew",
+        "./build/PenguinJump-v19.gbc",
+        "--player",
+        "1",
+        "--expect-sha256",
+        "8c13344ace957985c83271bfd89643966908e7355f0ec4918bccee9b2a679929",
+        "--format",
+        "json",
+        "--yes"
+      ],
+      "events": [
+        {
+          "type": "started",
+          "command": "<home>/.modretro-chromatic-runtime/fd6a1b542a510f3ee1e047e83d31e1ad96bd4580fe7c59fbc558befba778beae/darwin-arm64-37257304b250634c586b0061e6f75dc1bec6ebaa57da1b9937106fa1fd370c70/chromatic-cli",
+          "args": [
+            "write-homebrew",
+            "./build/PenguinJump-v19.gbc",
+            "--player",
+            "1",
+            "--expect-sha256",
+            "8c13344ace957985c83271bfd89643966908e7355f0ec4918bccee9b2a679929",
+            "--format",
+            "json",
+            "--yes"
+          ],
+          "version": "1.2.1",
+          "target": "darwin-arm64",
+          "startedAt": "2026-10-02T15:29:12.743Z",
+          "pid": 93137,
+          "interruptions": [],
+          "observationErrors": [],
+          "observationCounts": {
+            "failedCallbacks": 0,
+            "skippedCallbacks": 0
+          }
+        },
+        {
+          "type": "spawn",
+          "at": "2026-10-02T15:29:12.749Z",
+          "pid": 93137
+        },
+        {
+          "type": "exit",
+          "code": 0,
+          "signal": null,
+          "at": "2026-10-02T15:29:49.089Z"
+        },
+        {
+          "type": "close",
+          "code": 0,
+          "signal": null,
+          "at": "2026-10-02T15:29:49.099Z"
+        }
+      ],
+      "streamFiles": {
+        "stdout": "command-1.stdout",
+        "stderr": "command-1.stderr"
+      },
+      "observedOutput": {
+        "stdout": 220,
+        "stderr": 0
+      },
+      "rawOutput": {
+        "stdout": {
+          "observedBytes": 220,
+          "retainedBytes": 220,
+          "complete": true,
+          "sha256": "bccd6cc8a93586cb4d8aafd7e46008292d8d5d91c3db97e0f6e801af51a3dd22"
+        },
+        "stderr": {
+          "observedBytes": 0,
+          "retainedBytes": 0,
+          "complete": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "dispatchAttemptedAt": "2026-10-02T15:29:12.546Z",
+      "process": {
+        "command": "<home>/.modretro-chromatic-runtime/fd6a1b542a510f3ee1e047e83d31e1ad96bd4580fe7c59fbc558befba778beae/darwin-arm64-37257304b250634c586b0061e6f75dc1bec6ebaa57da1b9937106fa1fd370c70/chromatic-cli",
+        "args": [
+          "write-homebrew",
+          "./build/PenguinJump-v19.gbc",
+          "--player",
+          "1",
+          "--expect-sha256",
+          "8c13344ace957985c83271bfd89643966908e7355f0ec4918bccee9b2a679929",
+          "--format",
+          "json",
+          "--yes"
+        ],
+        "version": "1.2.1",
+        "target": "darwin-arm64",
+        "startedAt": "2026-10-02T15:29:12.743Z",
+        "pid": 93137,
+        "interruptions": [],
+        "observationErrors": [],
+        "observationCounts": {
+          "failedCallbacks": 0,
+          "skippedCallbacks": 0
+        },
+        "spawn": {
+          "at": "2026-10-02T15:29:12.749Z",
+          "pid": 93137
+        },
+        "exit": {
+          "code": 0,
+          "signal": null,
+          "at": "2026-10-02T15:29:49.089Z"
+        },
+        "close": {
+          "code": 0,
+          "signal": null,
+          "at": "2026-10-02T15:29:49.099Z"
+        },
+        "stdout": {
+          "bytes": 220,
+          "retainedBytes": 220,
+          "truncated": false,
+          "endObserved": true,
+          "closeObserved": true,
+          "text": "{\"schema_version\":1,\"operation\":\"write-homebrew\",\"ok\":true,\"result\":{\"elapsedMs\":36331,\"player\":1,\"rom\":\"PenguinJump-v19.gbc\",\"romSha256\":\"8c13344ace957985c83271bfd89643966908e7355f0ec4918bccee9b2a679929\"},\"error\":null}\n",
+          "utf8Valid": true
+        },
+        "stderr": {
+          "bytes": 0,
+          "retainedBytes": 0,
+          "truncated": false,
+          "endObserved": true,
+          "closeObserved": true,
+          "text": "",
+          "utf8Valid": true
+        }
+      },
+      "vendor": {
+        "schema_version": 1,
+        "operation": "write-homebrew",
+        "ok": true,
+        "result": {
+          "elapsedMs": 36331,
+          "player": 1,
+          "rom": "PenguinJump-v19.gbc",
+          "romSha256": "8c13344ace957985c83271bfd89643966908e7355f0ec4918bccee9b2a679929"
+        },
+        "error": null
+      }
+    }
+  ],
+  "result": {
+    "rom": {
+      "path": "./build/PenguinJump-v19.gbc",
+      "sizeBytes": 131072,
+      "sha256": "8c13344ace957985c83271bfd89643966908e7355f0ec4918bccee9b2a679929",
+      "title": "PENGUINJUMP",
+      "colorMode": "gbc-only",
+      "colorFlag": 192,
+      "cartridgeType": 30,
+      "cartridgeTypeName": "MBC5+RUMBLE+RAM+BATTERY",
+      "mapper": "MBC5",
+      "romSizeCode": 2,
+      "declaredRomSizeBytes": 131072,
+      "ramSizeCode": 3,
+      "declaredRamSizeBytes": 32768,
+      "nintendoLogoValid": true,
+      "headerChecksum": 30,
+      "computedHeaderChecksum": 30,
+      "headerChecksumValid": true,
+      "valid": true
+    },
+    "selectedDevice": {
+      "gwu2x": {
+        "product": "GWU2X",
+        "product_id": 288,
+        "vendor_id": 13226
+      },
+      "location": {
+        "bus_id": "00",
+        "port_chain": [
+          1,
+          2,
+          1,
+          3
+        ]
+      },
+      "player": 1,
+      "player_function": {
+        "product": "Chromatic - Player 01",
+        "product_id": 257,
+        "vendor_id": 14158
+      }
+    },
+    "diagnostics": [],
+    "vendorResult": {
+      "elapsedMs": 36331,
+      "player": 1,
+      "rom": "PenguinJump-v19.gbc",
+      "romSha256": "8c13344ace957985c83271bfd89643966908e7355f0ec4918bccee9b2a679929"
+    },
+    "manualBootAndPlayVerified": false
+  },
+  "success": true,
+  "finishedAt": "2026-10-02T15:29:49.105Z",
+  "sessionId": "84463f3a-953b-4b01-b36a-b384f71444aa",
+  "automaticRetry": false,
+  "cartridgeWrite": "vendor-reported-success",
+  "processClosure": [
+    {
+      "command": "list-devices",
+      "scope": "vendor",
+      "pid": 93135,
+      "exit": {
+        "code": 0,
+        "signal": null,
+        "at": "2026-10-02T15:29:12.535Z"
+      },
+      "close": {
+        "code": 0,
+        "signal": null,
+        "at": "2026-10-02T15:29:12.540Z"
+      }
+    },
+    {
+      "command": "write-homebrew",
+      "scope": "vendor",
+      "pid": 93137,
+      "exit": {
+        "code": 0,
+        "signal": null,
+        "at": "2026-10-02T15:29:49.089Z"
+      },
+      "close": {
+        "code": 0,
+        "signal": null,
+        "at": "2026-10-02T15:29:49.099Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "45606688-51b1-5ca8-b735-b462b162e328",
+  "name": "星空のアイスラン",
+  "symbol": "bg_background",
+  "tileColors": "00ce6+014f6+",
+  "filename": "ice_run.png",
+  "width": 254,
+  "height": 18,
+  "imageWidth": 2032,
+  "imageHeight": 144,
+  "autoColor": false
+}

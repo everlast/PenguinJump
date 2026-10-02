@@ -1,0 +1,87 @@
+{
+  "native": {
+    "recordingPath": "./build/playtest-v8-bgm",
+    "sessionId": "676c010a13c349bf9c09c470a494c45e",
+    "status": "stopped",
+    "branchId": "branch-0001",
+    "frame": 4881,
+    "totalFrames": 4881,
+    "bytesUsed": 3937996,
+    "limits": {
+      "maxBytes": 8000000,
+      "maxFrames": 5200,
+      "maxWallTimeMs": 600000,
+      "recentFrameCount": 12,
+      "sampleEveryFrames": 4
+    },
+    "branches": [
+      {
+        "branchId": "branch-0001",
+        "frame": 4881
+      }
+    ],
+    "eventCount": 3905,
+    "eventDigest": "d7090d80f7a210435c42e9323c09769292c275e4ed3844e9c103ec9c48486cd4",
+    "outcome": "passed",
+    "reason": "BGM loop, 180-frame pause/resume, two course clears, fish/star, double jump and bears pass; music channel 2 reserved.",
+    "truncatedTail": false
+  },
+  "browser": {
+    "success": true,
+    "action": "read_capture",
+    "preview": {
+      "url": "<local-preview-url>",
+      "port": 62774,
+      "outputRoot": "./build/web",
+      "reused": true,
+      "listenerId": "fc27e35f46fd5d098a12a9e692bd955e",
+      "startedAt": "2026-10-01T02:41:00.915Z",
+      "kind": "in-process-http",
+      "listening": true,
+      "closureState": "open",
+      "annotations": {
+        "injected": true,
+        "fingerprint": "393ba6151206dbff23d94f35274d7b79854ee1d616ddc20e2b39d12332538efb"
+      }
+    },
+    "recording": {
+      "version": 1,
+      "id": "921f0ad2-95f6-4724-a5df-c6d2037c5f3d",
+      "cartridgeType": 30,
+      "binding": {
+        "listenerId": "fc27e35f46fd5d098a12a9e692bd955e",
+        "viewId": "0f34ed82-e910-4af1-8438-e934ba749584",
+        "romSha256": "e4017098dc47d79b8367046ac3f6560dc081500331e3e5530526f6f31bd1ce8f",
+        "runtimeSha256": "69aa17be45fec5fde585af4f39ed850b5d64107ec094a6482f316fef2fe7c945",
+        "sourceRevision": "cf9da2b52fefe122033ce5628d6cb00e2affa2a6f840eb0250f37b5aeb1c5f55",
+        "recordingGeneration": 1
+      },
+      "phase": "finished",
+      "durationMs": 36000,
+      "admittedAt": 1790830365043,
+      "startBy": 1790830370043,
+      "stopBy": 1790830406043,
+      "delivered": true,
+      "uploadAttempted": true,
+      "stopped": true,
+      "released": true,
+      "browserAcknowledgedSave": true,
+      "audioIncluded": true,
+      "finalizationDeadline": 1790830431635,
+      "saved": {
+        "id": "a2244b9e-2361-4f9b-9c52-ad9e55535d43",
+        "kind": "video",
+        "mimeType": "video/webm;codecs=vp9,opus",
+        "bytes": 861963,
+        "sha256": "3bf16ad089f68c235bbc0d2382fee335e9b4633cff56b2b0b358fd49fb95fc63",
+        "createdAt": "2026-10-01T04:53:21.640Z",
+        "path": "./captures/4ab4822664a9bddb36ef4d681dd3af356eba1a5a6996ddb3b18ecef6abccad7e/a2244b9e-2361-4f9b-9c52-ad9e55535d43.webm",
+        "metadataPath": "./captures/4ab4822664a9bddb36ef4d681dd3af356eba1a5a6996ddb3b18ecef6abccad7e/a2244b9e-2361-4f9b-9c52-ad9e55535d43.json",
+        "url": "./codex-captures/a2244b9e-2361-4f9b-9c52-ad9e55535d43/media",
+        "metadataUrl": "./codex-captures/a2244b9e-2361-4f9b-9c52-ad9e55535d43/metadata"
+      },
+      "outcome": "complete",
+      "linksAvailable": true
+    }
+  }
+}

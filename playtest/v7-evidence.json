@@ -1,0 +1,6393 @@
+{
+  "version": 7,
+  "rom": {
+    "romPath": "./build/PenguinJump-v7.gbc",
+    "frame": 120,
+    "width": 160,
+    "height": 144,
+    "activeButtons": [],
+    "sampledButtons": [],
+    "cgb": true,
+    "romSha256": "c124a41c79583cefa04851da4ad325ad583cf67741ccded0952e697edf17c381",
+    "runtime": {
+      "name": "PyBoy",
+      "version": "2.7.0",
+      "protocolVersion": 1,
+      "workerSha256": "6271cbbb9ca76d4d149173f4110705cfa3c567349f0cb7ceb347bf1df7598925"
+    },
+    "paused": true,
+    "clock": {
+      "mode": "paused",
+      "clockHz": 4194304,
+      "dotsPerFrame": 70224,
+      "executionWallTimeMs": 116.220959,
+      "gameTimeMs": 2009.124755859375
+    },
+    "recording": {
+      "recordingPath": "./build/playtest-v7-bear-graphics",
+      "sessionId": "f2416d91265e48b5967143088e260a2c",
+      "status": "recording",
+      "branchId": "branch-0001",
+      "frame": 120,
+      "totalFrames": 120,
+      "bytesUsed": 90890,
+      "limits": {
+        "sampleEveryFrames": 1,
+        "recentFrameCount": 12,
+        "maxBytes": 8000000,
+        "maxFrames": 3200,
+        "maxWallTimeMs": 1200000
+      },
+      "eventCount": 123,
+      "eventDigest": "278f5769069145e46fbd4da154703c8a36b502a37a5746f1bf2790c34c2b20fc",
+      "branches": [
+        {
+          "branchId": "branch-0001",
+          "frame": 120
+        }
+      ]
+    },
+    "debugMode": "rom"
+  },
+  "recording": {
+    "recordingPath": "./build/playtest-v7-bear-graphics",
+    "sessionId": "f2416d91265e48b5967143088e260a2c",
+    "status": "stopped",
+    "branchId": "branch-0001",
+    "frame": 2594,
+    "totalFrames": 2594,
+    "bytesUsed": 6522365,
+    "limits": {
+      "sampleEveryFrames": 1,
+      "recentFrameCount": 12,
+      "maxBytes": 8000000,
+      "maxFrames": 3200,
+      "maxWallTimeMs": 1200000
+    },
+    "eventCount": 5185,
+    "eventDigest": "24c6ff26a37f105cdfda4b8110d1644ca51d0cf6b18bf1dba940d62210700986",
+    "branches": [
+      {
+        "branchId": "branch-0001",
+        "frame": 2594
+      }
+    ],
+    "outcome": "passed",
+    "reason": "v7 bear native canvas/origin correction: all five compiled frames exactly match authored PNG at unchanged runtime coordinates. Actual right/left walking, direction reversal, stomp/squash, extra jump and two courses passed; no gameplay code changed. OAM observations retained."
+  },
+  "evidence": [
+    {
+      "kind": "approach",
+      "frame": 240,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 3,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 80,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 3,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 919.625,
+          "index": 4,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1448.75,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 0,
+      "x": 172,
+      "y": 112,
+      "obstacle": 0
+    },
+    {
+      "kind": "static_pass",
+      "frame": 280,
+      "velocity": 153,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 6,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 116,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 6,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 1,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 921,
+          "index": 4,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1464.5,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 0,
+      "x": 235,
+      "y": 106.9375,
+      "obstacle": 0
+    },
+    {
+      "kind": "approach",
+      "frame": 362,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 9,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 194,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 9,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 904.75,
+          "index": 4,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1445.75,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 0,
+      "x": 371.5,
+      "y": 112,
+      "obstacle": 1
+    },
+    {
+      "kind": "double_jump",
+      "frame": 408,
+      "velocity": -10,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 12,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 235,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 12,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 2,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 922.6875,
+          "index": 4,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1451.8125,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 0,
+      "x": 443.25,
+      "y": 30.0625,
+      "obstacle": 1
+    },
+    {
+      "kind": "static_pass",
+      "frame": 434,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 13,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 260,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 13,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 922.75,
+          "index": 4,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1462.75,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 0,
+      "x": 487,
+      "y": 112,
+      "obstacle": 1
+    },
+    {
+      "kind": "approach",
+      "frame": 450,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 14,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 274,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 14,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 916.625,
+          "index": 4,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1468.875,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 0,
+      "x": 511.5,
+      "y": 112,
+      "obstacle": 2
+    },
+    {
+      "kind": "double_jump",
+      "frame": 490,
+      "velocity": -10,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 16,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 310,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 16,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 2,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 900.875,
+          "index": 4,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1459.75,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 0,
+      "x": 574.5,
+      "y": 29.59375,
+      "obstacle": 2
+    },
+    {
+      "kind": "static_pass",
+      "frame": 516,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 17,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 335,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 17,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 901.6875,
+          "index": 4,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1448.8125,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 0,
+      "x": 618.25,
+      "y": 112,
+      "obstacle": 2
+    },
+    {
+      "kind": "approach",
+      "frame": 567,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 20,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 382,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 20,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 922.25,
+          "index": 4,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1451.375,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 0,
+      "x": 700.5,
+      "y": 112,
+      "obstacle": 3
+    },
+    {
+      "kind": "static_pass",
+      "frame": 607,
+      "velocity": 153,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 23,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 418,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 23,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 1,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 918.375,
+          "index": 4,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1467.125,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 0,
+      "x": 763.5,
+      "y": 106.9375,
+      "obstacle": 3
+    },
+    {
+      "kind": "bear_takeoff",
+      "frame": 663,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 26,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 470,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 26,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 896,
+          "index": 4,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1454.5,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 0,
+      "x": 854.5,
+      "y": 112,
+      "obstacle": 4,
+      "bear": 0
+    },
+    {
+      "kind": "bear_defeated",
+      "frame": 700,
+      "velocity": -104,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 27,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 504,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 27,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 1,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 18
+        },
+        {
+          "x": 1440,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 1,
+      "x": 914,
+      "y": 94,
+      "obstacle": 4,
+      "bear": 0
+    },
+    {
+      "kind": "bear_squashed",
+      "frame": 708,
+      "velocity": -48,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 27,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 512,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 27,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 1,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 10
+        },
+        {
+          "x": 1443.5,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 1,
+      "x": 928,
+      "y": 75.875,
+      "obstacle": 4,
+      "bear": 0
+    },
+    {
+      "kind": "stomp_extra_air_jump",
+      "frame": 714,
+      "velocity": -108,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 27,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 517,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 27,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 2,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 5
+        },
+        {
+          "x": 1445.6875,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 1,
+      "x": 936.75,
+      "y": 59.875
+    },
+    {
+      "kind": "bear_passed",
+      "frame": 754,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 29,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 555,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 29,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1462.3125,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 1,
+      "x": 1003.25,
+      "y": 112,
+      "obstacle": 4,
+      "bear": 0
+    },
+    {
+      "kind": "approach",
+      "frame": 784,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 30,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 583,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 30,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1469.8125,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 1,
+      "x": 1052.25,
+      "y": 112,
+      "obstacle": 5
+    },
+    {
+      "kind": "static_pass",
+      "frame": 824,
+      "velocity": 153,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 33,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 619,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 33,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 1,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1454.0625,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 1,
+      "x": 1115.25,
+      "y": 106.9375,
+      "obstacle": 5
+    },
+    {
+      "kind": "approach",
+      "frame": 897,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 36,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 688,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 36,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1455.75,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 1,
+      "x": 1236,
+      "y": 112,
+      "obstacle": 6
+    },
+    {
+      "kind": "static_pass",
+      "frame": 937,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 39,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 725,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 39,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1471.9375,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 1,
+      "x": 1300.75,
+      "y": 112,
+      "obstacle": 6
+    },
+    {
+      "kind": "bear_takeoff",
+      "frame": 988,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 41,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 773,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 41,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1451.4375,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 1,
+      "x": 1384.75,
+      "y": 112,
+      "obstacle": 7,
+      "bear": 1
+    },
+    {
+      "kind": "bear_defeated",
+      "frame": 1025,
+      "velocity": -104,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 42,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 807,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 42,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 1,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1443.0625,
+          "index": 7,
+          "right": 1,
+          "alive": 0,
+          "squash": 18
+        }
+      ],
+      "stomps": 2,
+      "x": 1444.25,
+      "y": 94,
+      "obstacle": 7,
+      "bear": 1
+    },
+    {
+      "kind": "bear_squashed",
+      "frame": 1033,
+      "velocity": -55,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 43,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 814,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 43,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 1,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1443.0625,
+          "index": 7,
+          "right": 1,
+          "alive": 0,
+          "squash": 11
+        }
+      ],
+      "stomps": 2,
+      "x": 1456.5,
+      "y": 77.375,
+      "obstacle": 7,
+      "bear": 1
+    },
+    {
+      "kind": "bear_passed",
+      "frame": 1058,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 44,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 838,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 44,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1443.0625,
+          "index": 7,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 1498.5,
+      "y": 112,
+      "obstacle": 7,
+      "bear": 1
+    },
+    {
+      "kind": "approach",
+      "frame": 1113,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 47,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 889,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 47,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1443.0625,
+          "index": 7,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 1587.75,
+      "y": 112,
+      "obstacle": 8
+    },
+    {
+      "kind": "static_pass",
+      "frame": 1153,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 50,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 926,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 50,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1443.0625,
+          "index": 7,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 1652.5,
+      "y": 112,
+      "obstacle": 8
+    },
+    {
+      "kind": "approach",
+      "frame": 1214,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 53,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 983,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 53,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1443.0625,
+          "index": 7,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 1752.25,
+      "y": 112,
+      "obstacle": 9
+    },
+    {
+      "kind": "double_jump",
+      "frame": 1254,
+      "velocity": -10,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 55,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1019,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 55,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 2,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1443.0625,
+          "index": 7,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 1815.25,
+      "y": 29.59375,
+      "obstacle": 9
+    },
+    {
+      "kind": "static_pass",
+      "frame": 1280,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 0,
+      "fish": 56,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1044,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 56,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1443.0625,
+          "index": 7,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 1859,
+      "y": 112,
+      "obstacle": 9
+    },
+    {
+      "kind": "course_clear",
+      "frame": 1347,
+      "velocity": 0,
+      "rng": 6114,
+      "courses": 1,
+      "fish": 56,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 72,
+      "ticks": 1109,
+      "ice": [
+        {
+          "x": 208,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 568,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 32
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1088,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1456,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1616,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 2,
+      "progress": 56,
+      "speed": 56,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 0,
+      "bears": [
+        {
+          "x": 910.875,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1443.0625,
+          "index": 7,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 1972.75,
+      "y": 112
+    },
+    {
+      "kind": "next_course",
+      "frame": 1447,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 56,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1134,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 56,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 25,
+      "bears": [
+        {
+          "x": 899.0625,
+          "index": 4,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1453.5,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 76.53125,
+      "y": 112
+    },
+    {
+      "kind": "course_start",
+      "frame": 1447,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 56,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1134,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 56,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 25,
+      "bears": [
+        {
+          "x": 899.0625,
+          "index": 4,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1453.5,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 76.53125,
+      "y": 112
+    },
+    {
+      "kind": "approach",
+      "frame": 1504,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 59,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1188,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 59,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 23,
+      "bears": [
+        {
+          "x": 916.5625,
+          "index": 4,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1433.75,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 172.71875,
+      "y": 112,
+      "obstacle": 0
+    },
+    {
+      "kind": "static_pass",
+      "frame": 1543,
+      "velocity": 153,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 62,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1223,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 62,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 1,
+      "gauge": 0,
+      "motion": 2,
+      "bears": [
+        {
+          "x": 924.5,
+          "index": 4,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1449.0625,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 235.0625,
+      "y": 106.9375,
+      "obstacle": 0
+    },
+    {
+      "kind": "approach",
+      "frame": 1608,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 65,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1284,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 65,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 7,
+      "bears": [
+        {
+          "x": 897.8125,
+          "index": 4,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1452.625,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 343.71875,
+      "y": 112,
+      "obstacle": 1
+    },
+    {
+      "kind": "double_jump",
+      "frame": 1648,
+      "velocity": -10,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 67,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1320,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 67,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 2,
+      "gauge": 0,
+      "motion": 43,
+      "bears": [
+        {
+          "x": 909.5625,
+          "index": 4,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1436.875,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 407.84375,
+      "y": 29.59375,
+      "obstacle": 1
+    },
+    {
+      "kind": "static_pass",
+      "frame": 1673,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 68,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1344,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 68,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 11,
+      "bears": [
+        {
+          "x": 920.0625,
+          "index": 4,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1437.25,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 450.59375,
+      "y": 112,
+      "obstacle": 1
+    },
+    {
+      "kind": "approach",
+      "frame": 1732,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 71,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1399,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 71,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 10,
+      "bears": [
+        {
+          "x": 912.25,
+          "index": 4,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1461.3125,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 548.5625,
+      "y": 112,
+      "obstacle": 2
+    },
+    {
+      "kind": "double_jump",
+      "frame": 1778,
+      "velocity": -10,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 74,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1440,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 74,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 2,
+      "gauge": 0,
+      "motion": 51,
+      "bears": [
+        {
+          "x": 897.3125,
+          "index": 4,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1449.125,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 621.59375,
+      "y": 30.0625,
+      "obstacle": 2
+    },
+    {
+      "kind": "static_pass",
+      "frame": 1803,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 75,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1464,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 75,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 19,
+      "bears": [
+        {
+          "x": 907.8125,
+          "index": 4,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1438.625,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 664.34375,
+      "y": 112,
+      "obstacle": 2
+    },
+    {
+      "kind": "approach",
+      "frame": 1829,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 76,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1488,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 76,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 43,
+      "bears": [
+        {
+          "x": 918.3125,
+          "index": 4,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1435.5,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 707.09375,
+      "y": 112,
+      "obstacle": 3
+    },
+    {
+      "kind": "static_pass",
+      "frame": 1868,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 79,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1524,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 79,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 23,
+      "bears": [
+        {
+          "x": 922.3125,
+          "index": 4,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1451.25,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 771.21875,
+      "y": 112,
+      "obstacle": 3
+    },
+    {
+      "kind": "bear_takeoff",
+      "frame": 1910,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 81,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1563,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 81,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 6,
+      "bears": [
+        {
+          "x": 905.25,
+          "index": 4,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        },
+        {
+          "x": 1460.0625,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 2,
+      "x": 840.6875,
+      "y": 112,
+      "obstacle": 4,
+      "bear": 0
+    },
+    {
+      "kind": "bear_defeated",
+      "frame": 1947,
+      "velocity": -104,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 82,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1597,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 82,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 1,
+      "gauge": 0,
+      "motion": 40,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 18
+        },
+        {
+          "x": 1445.1875,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 3,
+      "x": 901.25,
+      "y": 94,
+      "obstacle": 4,
+      "bear": 0
+    },
+    {
+      "kind": "bear_squashed",
+      "frame": 1955,
+      "velocity": -55,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 83,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1604,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 83,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 1,
+      "gauge": 0,
+      "motion": 47,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 11
+        },
+        {
+          "x": 1442.125,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 3,
+      "x": 913.71875,
+      "y": 77.375,
+      "obstacle": 4,
+      "bear": 0
+    },
+    {
+      "kind": "bear_passed",
+      "frame": 1979,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 84,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1627,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 84,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 14,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1432.0625,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 3,
+      "x": 954.6875,
+      "y": 112,
+      "obstacle": 4,
+      "bear": 0
+    },
+    {
+      "kind": "approach",
+      "frame": 2047,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 87,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1691,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 87,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 22,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1459.5625,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 3,
+      "x": 1068.6875,
+      "y": 112,
+      "obstacle": 5
+    },
+    {
+      "kind": "static_pass",
+      "frame": 2086,
+      "velocity": 153,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 90,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1726,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 90,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 1,
+      "gauge": 0,
+      "motion": 1,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1453.5,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 3,
+      "x": 1131.03125,
+      "y": 106.9375,
+      "obstacle": 5
+    },
+    {
+      "kind": "approach",
+      "frame": 2149,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 93,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1785,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 93,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 4,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1435.9375,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 3,
+      "x": 1236.125,
+      "y": 112,
+      "obstacle": 6
+    },
+    {
+      "kind": "static_pass",
+      "frame": 2188,
+      "velocity": 153,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 96,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1821,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 96,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 1,
+      "gauge": 0,
+      "motion": 40,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1451.6875,
+          "index": 7,
+          "right": 1,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 3,
+      "x": 1300.25,
+      "y": 106.9375,
+      "obstacle": 6
+    },
+    {
+      "kind": "bear_takeoff",
+      "frame": 2238,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 98,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 0,
+      "phaseTimer": 0,
+      "ticks": 1868,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 98,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 0,
+      "motion": 31,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1456.125,
+          "index": 7,
+          "right": 0,
+          "alive": 1,
+          "squash": 0
+        }
+      ],
+      "stomps": 3,
+      "x": 1383.96875,
+      "y": 112,
+      "obstacle": 7,
+      "bear": 1
+    },
+    {
+      "kind": "bear_defeated",
+      "frame": 2275,
+      "velocity": 143,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 101,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 475,
+      "phaseTimer": 0,
+      "ticks": 1902,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 1,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 1,
+      "gauge": 80,
+      "motion": 9,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1441.6875,
+          "index": 7,
+          "right": 0,
+          "alive": 0,
+          "squash": 17
+        }
+      ],
+      "stomps": 3,
+      "x": 1442.75,
+      "y": 97.6875,
+      "obstacle": 7,
+      "bear": 1
+    },
+    {
+      "kind": "bear_squashed",
+      "frame": 2283,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 101,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 468,
+      "phaseTimer": 0,
+      "ticks": 1909,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 1,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 79,
+      "motion": 16,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1441.6875,
+          "index": 7,
+          "right": 0,
+          "alive": 0,
+          "squash": 10
+        }
+      ],
+      "stomps": 3,
+      "x": 1457,
+      "y": 112,
+      "obstacle": 7,
+      "bear": 1
+    },
+    {
+      "kind": "bear_passed",
+      "frame": 2283,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 101,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 468,
+      "phaseTimer": 0,
+      "ticks": 1909,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 1,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 79,
+      "motion": 16,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1441.6875,
+          "index": 7,
+          "right": 0,
+          "alive": 0,
+          "squash": 10
+        }
+      ],
+      "stomps": 3,
+      "x": 1457,
+      "y": 112,
+      "obstacle": 7,
+      "bear": 1
+    },
+    {
+      "kind": "approach",
+      "frame": 2369,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 104,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 386,
+      "phaseTimer": 0,
+      "ticks": 1991,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 4,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 65,
+      "motion": 42,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1441.6875,
+          "index": 7,
+          "right": 0,
+          "alive": 0,
+          "squash": 0
+        }
+      ],
+      "stomps": 3,
+      "x": 1603.0625,
+      "y": 112,
+      "obstacle": 8
+    },
+    {
+      "kind": "static_pass",
+      "frame": 2408,
+      "velocity": 153,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 107,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 351,
+      "phaseTimer": 0,
+      "ticks": 2026,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 7,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 1,
+      "gauge": 59,
+      "motion": 21,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1441.6875,
+          "index": 7,
+          "right": 0,
+          "alive": 0,
+          "squash": 0
+        }
+      ],
+      "stomps": 3,
+      "x": 1663.625,
+      "y": 102.15625,
+      "obstacle": 8
+    },
+    {
+      "kind": "approach",
+      "frame": 2461,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 110,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 302,
+      "phaseTimer": 0,
+      "ticks": 2075,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 10,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 51,
+      "motion": 14,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1441.6875,
+          "index": 7,
+          "right": 0,
+          "alive": 0,
+          "squash": 0
+        }
+      ],
+      "stomps": 3,
+      "x": 1752.6875,
+      "y": 112,
+      "obstacle": 9
+    },
+    {
+      "kind": "double_jump",
+      "frame": 2501,
+      "velocity": -10,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 112,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 267,
+      "phaseTimer": 0,
+      "ticks": 2110,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 12,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 2,
+      "gauge": 45,
+      "motion": 49,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1441.6875,
+          "index": 7,
+          "right": 0,
+          "alive": 0,
+          "squash": 0
+        }
+      ],
+      "stomps": 3,
+      "x": 1813.25,
+      "y": 30.46875,
+      "obstacle": 9
+    },
+    {
+      "kind": "static_pass",
+      "frame": 2526,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 1,
+      "fish": 113,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 244,
+      "phaseTimer": 0,
+      "ticks": 2133,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 0,
+      "progress": 13,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 41,
+      "motion": 16,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1441.6875,
+          "index": 7,
+          "right": 0,
+          "alive": 0,
+          "squash": 0
+        }
+      ],
+      "stomps": 3,
+      "x": 1856,
+      "y": 112,
+      "obstacle": 9
+    },
+    {
+      "kind": "course_clear",
+      "frame": 2594,
+      "velocity": 0,
+      "rng": 32791,
+      "courses": 2,
+      "fish": 113,
+      "bestC": 0,
+      "bestF": 0,
+      "star": 178,
+      "phaseTimer": 72,
+      "ticks": 2199,
+      "ice": [
+        {
+          "x": 208,
+          "h": 16,
+          "w": 0
+        },
+        {
+          "x": 400,
+          "h": 48,
+          "w": 0
+        },
+        {
+          "x": 576,
+          "h": 0,
+          "w": 56
+        },
+        {
+          "x": 736,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 912,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1104,
+          "h": 24,
+          "w": 0
+        },
+        {
+          "x": 1264,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1448,
+          "h": 255,
+          "w": 0
+        },
+        {
+          "x": 1632,
+          "h": 0,
+          "w": 40
+        },
+        {
+          "x": 1808,
+          "h": 48,
+          "w": 0
+        }
+      ],
+      "phase": 2,
+      "progress": 13,
+      "speed": 57,
+      "falling": 0,
+      "jumps": 0,
+      "gauge": 30,
+      "motion": 26,
+      "bears": [
+        {
+          "x": 901.25,
+          "index": 4,
+          "right": 1,
+          "alive": 0,
+          "squash": 0
+        },
+        {
+          "x": 1441.6875,
+          "index": 7,
+          "right": 0,
+          "alive": 0,
+          "squash": 0
+        }
+      ],
+      "stomps": 3,
+      "x": 1973.5625,
+      "y": 112
+    }
+  ],
+  "oam": [
+    {
+      "frame": 240,
+      "courses": 0,
+      "label": "approach",
+      "peakObjects": 5,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        88,
+        89,
+        90,
+        91,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "frame": 362,
+      "courses": 0,
+      "label": "approach",
+      "peakObjects": 7,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ]
+    },
+    {
+      "frame": 408,
+      "courses": 0,
+      "label": "double",
+      "peakObjects": 7,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ]
+    },
+    {
+      "frame": 450,
+      "courses": 0,
+      "label": "approach",
+      "peakObjects": 5,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "frame": 490,
+      "courses": 0,
+      "label": "double",
+      "peakObjects": 5,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "frame": 567,
+      "courses": 0,
+      "label": "approach",
+      "peakObjects": 4,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ]
+    },
+    {
+      "frame": 663,
+      "courses": 0,
+      "label": "bear takeoff",
+      "peakObjects": 6,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        88,
+        89,
+        90,
+        91,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "frame": 700,
+      "courses": 0,
+      "label": "bear defeat",
+      "peakObjects": 7,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ]
+    },
+    {
+      "frame": 784,
+      "courses": 0,
+      "label": "approach",
+      "peakObjects": 6,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "frame": 897,
+      "courses": 0,
+      "label": "approach",
+      "peakObjects": 5,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ]
+    },
+    {
+      "frame": 988,
+      "courses": 0,
+      "label": "bear takeoff",
+      "peakObjects": 7,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "frame": 1025,
+      "courses": 0,
+      "label": "bear defeat",
+      "peakObjects": 7,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        88,
+        89,
+        90,
+        91
+      ]
+    },
+    {
+      "frame": 1113,
+      "courses": 0,
+      "label": "approach",
+      "peakObjects": 5,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ]
+    },
+    {
+      "frame": 1214,
+      "courses": 0,
+      "label": "approach",
+      "peakObjects": 4,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "frame": 1254,
+      "courses": 0,
+      "label": "double",
+      "peakObjects": 2,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "frame": 1504,
+      "courses": 1,
+      "label": "approach",
+      "peakObjects": 5,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "frame": 1608,
+      "courses": 1,
+      "label": "approach",
+      "peakObjects": 5,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "frame": 1648,
+      "courses": 1,
+      "label": "double",
+      "peakObjects": 5,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "frame": 1732,
+      "courses": 1,
+      "label": "approach",
+      "peakObjects": 7,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ]
+    },
+    {
+      "frame": 1778,
+      "courses": 1,
+      "label": "double",
+      "peakObjects": 8,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ]
+    },
+    {
+      "frame": 1829,
+      "courses": 1,
+      "label": "approach",
+      "peakObjects": 5,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ]
+    },
+    {
+      "frame": 1910,
+      "courses": 1,
+      "label": "bear takeoff",
+      "peakObjects": 6,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        88,
+        89,
+        90,
+        91,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "frame": 1947,
+      "courses": 1,
+      "label": "bear defeat",
+      "peakObjects": 7,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        88,
+        89,
+        90,
+        91
+      ]
+    },
+    {
+      "frame": 2047,
+      "courses": 1,
+      "label": "approach",
+      "peakObjects": 6,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "frame": 2149,
+      "courses": 1,
+      "label": "approach",
+      "peakObjects": 5,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ]
+    },
+    {
+      "frame": 2238,
+      "courses": 1,
+      "label": "bear takeoff",
+      "peakObjects": 6,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        88,
+        89,
+        90,
+        91,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "frame": 2275,
+      "courses": 1,
+      "label": "bear defeat",
+      "peakObjects": 6,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "frame": 2369,
+      "courses": 1,
+      "label": "approach",
+      "peakObjects": 5,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ]
+    },
+    {
+      "frame": 2461,
+      "courses": 1,
+      "label": "approach",
+      "peakObjects": 3,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ]
+    },
+    {
+      "frame": 2501,
+      "courses": 1,
+      "label": "double",
+      "peakObjects": 2,
+      "hardwareLimit": 10,
+      "overLimitScanlines": 0,
+      "peakScanlines": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ]
+    }
+  ],
+  "failure": {
+    "romSha256": "b81692cddc3405dc00a9e112c70e7b9e77f5619f9b2b440b4963b3ba6d4e7a99",
+    "frame": 652,
+    "sessionId": "43fbce69ee9443178798b44133b88ee7",
+    "archive": "artifacts/recording-archives/ca778c22-d44b-41c1-b7e8-89543dddffbf/recording"
+  },
+  "hardwareFlash": {
+    "latestFlashedVersion": 7,
+    "newVersionFlashed": true,
+    "operationId": "2dadc9502998347e90a9eff782f0b1e92bfcbd8f08042d98698d22fe921b46a9",
+    "resultFile": "flash-v7-result.json",
+    "state": "succeeded",
+    "cartridgeWrite": "vendor-reported-success",
+    "manualBootAndPlayVerified": false
+  }
+}
